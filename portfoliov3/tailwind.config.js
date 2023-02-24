@@ -13,7 +13,7 @@ module.exports = {
       },
 
       "fontFamily": {
-        marxure: ['Marxure', 'sans-serif'],
+        marxure: ['Secular One', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],
         poppins: ['Poppins', 'sans-serif'],
       },
@@ -31,14 +31,8 @@ module.exports = {
         default: '1px',
       },
       
-      maxWidth: {
-        '176px': '176px',
-      },
+      
 
-      width:{
-        '384px': '384px',
-        
-      }
 
     },
 

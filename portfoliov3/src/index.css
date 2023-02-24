@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,7 +10,9 @@
 *{
     margin: 0;
     padding: 0;
+   
 }
+
 
 /*Couleur de fond du body*/
 body{
@@ -54,6 +57,8 @@ body{
   letter-spacing: 3px;
 }
 
+
+
   /*animations et éléments*/
 
   /*mise en place des lignes à animer*/
@@ -90,7 +95,7 @@ body{
       width: 0;
     }
     100% {
-      width: 384px;
+      width: 300px;
     }
   } 
  }
@@ -150,14 +155,15 @@ body{
 
 /* animation pour le bouton discord en mode néon T_T */
   .light_anim{
-   letter-spacing: 15px; 
+   
+   letter-spacing: 10px; 
    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
    line-height: 0.70em;
    animation: spark 5s linear infinite;
    animation-delay: 4s;
    opacity: 0;
    text-shadow: 0 0 5px #fff;
-  
+ 
   }
 
   @keyframes spark {
