@@ -8,31 +8,31 @@
 
 
 
-      <div class="flex items-center flex-col justify-center h-screen random-color ">   
-  <div class="flex justify-center invisible">
-    <p class="font-poppins text-5rem uppercase text-vert_clair text_loose test random-color ">hello, i am</p>
-  </div>
+      <div class="flex items-center flex-col justify-center h-screen random-color mt-5">   
+        <div class="flex justify-center">
+          <p class="font-poppins text-5rem uppercase text-vert_clair text_loose test random-color animation_text ">hello, i am</p>
+        </div>
   
   
-    <div class="ligne0 "></div>
+    <div class="ligne0 my-5 "></div>
   
   
   <div class="appear">
     <div class="flex justify-center ">
-      <p class=" text-blanc_impur font-marxure uppercase text-9xl fade-in ">David</p>
+      <p class=" text-blanc_impur font-marxure uppercase text-9xl david_anim">David</p>
     </div>
   </div>
 
-  <div class="">
-    <div class="ligne1 "></div>
+  
+    <div class="ligne1 my-5"></div>
+ 
+
+  <div class="flex justify-center items-center line_height text-center random-color    ">
+    <p class="font-poppins text-5rem uppercase text-vert_clair text_loose font-light random-color animation_text2 ">a french web designer &<br/> front-end developer</p>
   </div>
 
-  <div class="flex justify-center items-center line_height text-center random-color invisible ">
-    <p class="font-poppins text-5rem uppercase text-vert_clair text_loose font-light random-color">a french web designer &<br/> front-end developer</p>
-  </div>
-
-  <div class="flex justify-center random-color invisible">
-    <p class="font-poppins text-26 uppercase text-vert_clair text_loose test mt-20 random-color letter_spacing">discover</p>
+  <div class="flex justify-center random-color    ">
+    <p class="font-poppins text-26 uppercase text-vert_clair text_loose test mt-20 random-color letter_spacing invisible">discover</p>
   </div>
 </div>
 
