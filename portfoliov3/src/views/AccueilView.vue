@@ -8,33 +8,37 @@
 
 
 
-      <div class="flex items-center flex-col justify-center h-screen random-color mt-5">   
-        <div class="flex justify-center">
-          <p class="font-poppins text-5rem uppercase text-vert_clair text_loose test random-color animation_text ">hello, i am</p>
+      <div class="flex items-center flex-col justify-center h-screen random-color ">  
+        
+        
+        <div class="flex justify-center mb-5">
+          <p class="font-poppins text-xl md:text-7xl 2xl:text-5rem uppercase text-vert_clair random-color animation_text letter_spacing">hello, i am</p>
         </div>
   
   
-    <div class="ligne0 my-5 "></div>
+      <div class="ligne0 mt-2 mb-1 border-default border-blanc_impur w-20 md:w-384px "></div>
   
   
-  <div class="appear">
-    <div class="flex justify-center ">
-      <p class=" text-blanc_impur font-marxure uppercase text-9xl david_anim">David</p>
-    </div>
-  </div>
-
   
-    <div class="ligne1 my-5"></div>
+      <div class="flex justify-center  ">
+        <p class=" text-blanc_impur font-marxure uppercase text-4xl md:text-9xl md:mb-5 david_anim ">David</p>
+      </div>
  
 
-  <div class="flex justify-center items-center line_height text-center random-color    ">
-    <p class="font-poppins text-5rem uppercase text-vert_clair text_loose font-light random-color animation_text2 ">a french web designer &<br/> front-end developer</p>
-  </div>
+    
+      <div class="ligne1 mt-4 mb-1 border-default border-blanc_impur w-20 md:w-384px "></div>
+  
 
-  <div class="flex justify-center random-color    ">
-    <p class="font-poppins text-26 uppercase text-vert_clair text_loose test mt-20 random-color letter_spacing invisible">discover</p>
+      <div class="flex justify-center items-center text-center random-color mt-5 ">
+          <p class="font-poppins text-xl md:text-5xl lg:text-5xl 2xl:text-5rem uppercase text-vert_clair random-color animation_text2 tracking-widest letter_spacing">a french web designer &<br/> front-end developer</p>
+      </div>
+
+      <div class="flex justify-center items-center mt-20">
+        <p class="font-poppins text-base md:text-26 uppercase text-blanc_impur mt-12 light_anim ">discover</p>
+      </div>
+
+
   </div>
-</div>
 
     </div>
 

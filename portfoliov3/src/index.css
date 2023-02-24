@@ -50,50 +50,61 @@ body{
     height: 100vh;
 }
 
-
-
-
-
-
-
-
+.letter_spacing{
+  letter-spacing: 3px;
+}
 
   /*animations et éléments*/
-  
 
   /*mise en place des lignes à animer*/
-  .ligne0{
-    border-top: 1px solid #C7C7C7;
-    width: 384px;
-    animation: appear 1s forwards;
-  }
+   .ligne0{
+    animation: appearxs 1s forwards;
+  } 
 
   .ligne1{
-    border-top: 1px solid #C7C7C7;
-    width: 384px;
-    margin-top: 40px;
-    animation: appear 1s forwards;
+    animation: appearxs 1s forwards;
   }
 
+  /* animation pour les téléphones/tablettes */
+  @keyframes appearxs {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 80px;
+    }
+  } 
 
- /*animation des barres */
-  @keyframes appear {
+ /* adaptation de l'animation pour les devices haut dessus de 768px */
+ @media screen and (min-width:768px) {
+  .ligne0{
+    animation: appearmd 1s forwards;
+  } 
+
+  .ligne1{
+    animation: appearmd 1s forwards;
+  }
+
+  @keyframes appearmd {
     0% {
       width: 0;
     }
     100% {
       width: 384px;
     }
-  }
+  } 
+ }
+ 
+
 
   /* animation du titre david */
-.david_anim {
+ .david_anim {
     opacity: 0;
     animation: text-appear 1s 0.5s forwards;
-  }
+  } 
   
-  /* mise en place de l'animation */
-@keyframes text-appear {
+  /* mise en place de l'animation pour le titre david */
+ @keyframes text-appear {
     0% {
       opacity: 0;
       transform: translateY(50%);
@@ -102,33 +113,26 @@ body{
       opacity: 1;
       transform: translateY
     }
-  }  
+  }   
 
-  .animation_text {
+  /* animation pour le texte hello */
+   .animation_text {
     opacity: 0;
     animation: textAppear 3s 1s forwards;
   }
-  
-  @keyframes textAppear {
+   
+   @keyframes textAppear {
     0% {
       opacity: 0;
     }
-    25% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0;
-    }
-    75% {
-      opacity: 0;
-    }
+
     100% {
       opacity: 1;
     }
-  }
+  } 
 
-
-  .animation_text2 {
+/* animation pour le text french blablabla */
+   .animation_text2 {
     opacity: 0;
     animation: textAppear2 3s 2s forwards;
   }
@@ -141,4 +145,36 @@ body{
       opacity: 1;
     }
     
+  } 
+
+
+/* animation pour le bouton discord en mode néon T_T */
+  .light_anim{
+   letter-spacing: 15px; 
+   -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+   line-height: 0.70em;
+   animation: spark 5s linear infinite;
+   animation-delay: 4s;
+   opacity: 0;
+   text-shadow: 0 0 5px #fff;
+  
+  }
+
+  @keyframes spark {
+    0%,5%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+      opacity: 1;
+      color: #fff;
+      text-shadow: none;
+      
+    }
+    5.1%,18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+      color: #fff;
+      opacity: 1;
+      text-shadow: 0 0 5px #fff,
+       0 0 10px #fff,
+       0 0 20px #fff,
+       0 0 40px #fff,
+       0 0 80px #fff;
+     
+    }
   }

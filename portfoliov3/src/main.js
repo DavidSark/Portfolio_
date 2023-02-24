@@ -11,7 +11,7 @@ app.mount('#app')
 
 //animation de changement de couleur quand on refresh la page :
 window.addEventListener('load', () => {
-    const colors = ['#98F1C6', '#F19898', '#BF98F1']; // Ajoutez les couleurs que vous souhaitez utiliser ici
+    const colors = ['#98F1C6', '#F19898', '#BF98F1','#98D6F1']; // Ajoutez les couleurs que vous souhaitez utiliser ici
   
     /* Génère une couleur aléatoire */
     const randomColor = colors[Math.floor(Math.random() * colors.length)];
@@ -25,25 +25,11 @@ window.addEventListener('load', () => {
     });
   });
   
-
-
-
-  // Sélectionne la première div avec la classe "border-t-2"
-const borderDiv = document.querySelector('.border-t-2');
-
-// Crée une instance de IntersectionObserver
-const observer = new IntersectionObserver(entries => {
-  // Vérifie chaque entrée
-  entries.forEach(entry => {
-    // Si la div est visible à l'écran
-    if (entry.intersectionRatio > 0) {
-      // Ajoute la classe "animate"
-      borderDiv.classList.add('animate');
-      // Arrête l'observation pour cette entrée
-      observer.unobserve(entry.target);
-    }
+  elements.forEach((element) => {
+    element.style.color = randomColor;
   });
-});
-
-// Commence à observer la div
-observer.observe(borderDiv);
+  
+  //Ajoutez cette ligne pour changer la couleur de base de l'animation
+  const animEl = document.querySelector('.light_anim');
+  animEl.style.color = randomColor;
+  
