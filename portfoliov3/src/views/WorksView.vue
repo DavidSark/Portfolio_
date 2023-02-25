@@ -26,7 +26,7 @@
 
         <ul class=" ">
             <li class="text-center ">
-                <RouterLink to="/works" class="relative font-poppins text-lg md:text-5xl lg:text-5xl 2xl:text-3rem uppercase text-vert_clair random-color tracking-widest letter_spacing" >
+                <RouterLink to="/naknow" class="relative font-poppins text-lg md:text-5xl lg:text-5xl 2xl:text-3rem uppercase text-vert_clair random-color tracking-widest letter_spacing" >
                   <span  @mouseover="showImage('naknowledge')" @mouseleave="hideImage('naknowledge')" class=" name bord_transparent block lg:inline-block font-extrabold hover_effect">Naknowledge</span> <span class="hidden lg:inline-block">-</span> School project
                     
                   <transition name="fade">
@@ -58,12 +58,8 @@
                 </RouterLink>
 
                 <hr class="my-10 lg:my-32 test"/>
-
-                
             </li>
 
-           
-            
         </ul>
 
 

@@ -62,16 +62,16 @@ body{
   /*animations et éléments*/
 
   /*mise en place des lignes à animer*/
-   .ligne0{
+.ligne0{
     animation: appearxs 1s forwards;
   } 
 
-  .ligne1{
+.ligne1{
     animation: appearxs 1s forwards;
   }
 
   /* animation pour les téléphones/tablettes */
-  @keyframes appearxs {
+@keyframes appearxs {
     0% {
       width: 0;
     }
@@ -81,8 +81,8 @@ body{
   } 
 
  /* adaptation de l'animation pour les devices haut dessus de 768px */
- @media screen and (min-width:768px) {
-  .ligne0{
+@media screen and (min-width:768px) {
+.ligne0{
     animation: appearmd 1s forwards;
   } 
 
@@ -103,13 +103,13 @@ body{
 
 
   /* animation des titres */
- .titre_anim {
+.titre_anim {
     opacity: 0;
     animation: text-appear 1s 0.5s forwards;
   } 
   
   /* mise en place de l'animation pour le titre david */
- @keyframes text-appear {
+@keyframes text-appear {
     0% {
       opacity: 0;
       transform: translateY(50%);
@@ -121,12 +121,12 @@ body{
   }   
 
   /* animation pour le texte hello */
-   .animation_text {
+.animation_text {
     opacity: 0;
     animation: textAppear 3s 1s forwards;
   }
    
-   @keyframes textAppear {
+@keyframes textAppear {
     0% {
       opacity: 0;
     }
@@ -137,12 +137,12 @@ body{
   } 
 
 /* animation pour le text french blablabla */
-   .animation_text2 {
+.animation_text2 {
     opacity: 0;
     animation: textAppear2 3s 2s forwards;
   }
   
-  @keyframes textAppear2 {
+@keyframes textAppear2 {
     0% {
       opacity: 0;
     }
@@ -154,7 +154,7 @@ body{
 
 
 /* animation pour le bouton discord en mode néon T_T */
-  .light_anim{
+.light_anim{
    
    letter-spacing: 10px; 
    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
@@ -165,27 +165,6 @@ body{
    text-shadow: 0 0 5px #fff;
  
   }
-
-  .light_anim2{
-   
-    letter-spacing: 10px; 
-    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
-    line-height: 0.70em;
-    text-shadow: 0 0 15px #fff;
-    opacity: 0;
-    animation: fade 2s ease forwards;
-    animation-delay: 1.5s;
-   }
-
-   @keyframes fade {
-    0%{
-      opacity: 0;
-    }
-    100%{
-      opacity: 1;
-    }
-    
-   }
 
   @keyframes spark {
     0%,5%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
@@ -206,8 +185,33 @@ body{
     }
   }
 
+
+/* animation pour le deuxieme bouton neon " scroll down" */
+  .light_anim2{
+   
+    letter-spacing: 10px; 
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+    line-height: 0.70em;
+    text-shadow: 0 0 15px #fff;
+    opacity: 0;
+    animation: fade 2s ease forwards;
+    animation-delay: 1.5s;
+   }
+
+@keyframes fade {
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+    
+   }
+
+
+
   /* lettre transparente */
-  .bord_transparent{
+.bord_transparent{
     letter-spacing: 0.35rem;
     color: #C7C7C7;
   -webkit-text-fill-color: transparent;
@@ -230,7 +234,6 @@ hr{
   width: 470px;
  } 
 }
-
 
 @media screen and (min-width: 1024px){
   hr{
