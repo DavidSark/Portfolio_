@@ -26,13 +26,13 @@
 
         <ul class=" ">
             <li class="text-center ">
-                <RouterLink to="/" class="relative font-poppins text-lg md:text-5xl lg:text-5xl 2xl:text-3rem uppercase text-vert_clair random-color tracking-widest letter_spacing" >
+                <RouterLink to="/works" class="relative font-poppins text-lg md:text-5xl lg:text-5xl 2xl:text-3rem uppercase text-vert_clair random-color tracking-widest letter_spacing" >
                   <span  @mouseover="showImage('naknowledge')" @mouseleave="hideImage('naknowledge')" class=" name bord_transparent block lg:inline-block font-extrabold hover_effect">Naknowledge</span> <span class="hidden lg:inline-block">-</span> School project
                     
                   <transition name="fade">
                     <img
                       v-show="showNaknowledgeImage"
-                        class="hidden lg:inline-block absolute right-0 bottom-64 ml-2 w-32.5rem h-auto transform translate-y-full"
+                        class="hidden  w-30rem lg:inline-block absolute bottom-52 right-0 ml-2 xl:bottom-64 xl:w-32.5rem h-auto transform translate-y-full"
                         src="../assets/img/naknowledge.PNG"
                         alt="Image"
                       :style="naknowledgeImageStyle" />
@@ -43,14 +43,14 @@
             </li>
 
             <li class="text-center ">
-                <RouterLink to="/" class="relative font-poppins text-lg md:text-5xl lg:text-5xl 2xl:text-3rem uppercase text-vert_clair random-color tracking-widest letter_spacing" >
+                <RouterLink to="/works" class="relative font-poppins text-lg md:text-5xl lg:text-5xl 2xl:text-3rem uppercase text-vert_clair random-color tracking-widest letter_spacing" >
                   <span  @mouseover="showImage('country')" @mouseleave="hideImage('country')" class=" name bord_transparent block lg:inline-block font-extrabold 
                   hover_effect">Ghostie</span> <span class="hidden lg:inline-block">-</span> School project
 
                   <transition name="fade">
                     <img 
                     v-show="showCountryImage" 
-                      class="hidden lg:inline-block absolute right-0 bottom-64 ml-2 w-32.5rem h-auto transform translate-y-full"
+                      class="hidden w-30rem lg:inline-block absolute bottom-52 right-0 ml-2 xl:bottom-64 xl:w-32.5rem h-auto transform translate-y-full"
                       src="../assets/img/Ghostie.PNG"
                       alt="Image"
                       :style="countryImageStyle" />
