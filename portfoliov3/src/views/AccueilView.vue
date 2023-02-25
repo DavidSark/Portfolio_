@@ -21,7 +21,7 @@
   
   
       <div class="flex justify-center items-center ">
-        <p class=" text-blanc_impur font-poppins my-3 md:my-8 uppercase text-4xl md:text-9xl david_anim letter_spacing ">David</p>
+        <p class=" text-blanc_impur font-mitr my-3 md:my-8 uppercase text-4xl md:text-9xl daid_anim letter_spacing ">David</p>
       </div>
  
 

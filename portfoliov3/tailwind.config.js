@@ -13,9 +13,8 @@ module.exports = {
       },
 
       "fontFamily": {
-        marxure: ['Secular One', 'sans-serif'],
-        montserrat: ['Montserrat', 'sans-serif'],
         poppins: ['Poppins', 'sans-serif'],
+        mitr: ['Mitr', 'sans-serif'],
       },
 
       fontSize: {
