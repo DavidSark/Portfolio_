@@ -10,13 +10,13 @@
 *{
     margin: 0;
     padding: 0;
-   
+    box-sizing: border-box;
 }
 
 
 /*Couleur de fond du body*/
 body{
-    background-color: #161616;
+    background-color: black;
     color: white;
 }
 
@@ -102,8 +102,8 @@ body{
  
 
 
-  /* animation du titre david */
- .david_anim {
+  /* animation des titres */
+ .titre_anim {
     opacity: 0;
     animation: text-appear 1s 0.5s forwards;
   } 
@@ -166,6 +166,27 @@ body{
  
   }
 
+  .light_anim2{
+   
+    letter-spacing: 10px; 
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+    line-height: 0.70em;
+    text-shadow: 0 0 15px #fff;
+    opacity: 0;
+    animation: fade 2s ease forwards;
+    animation-delay: 1.5s;
+   }
+
+   @keyframes fade {
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+    
+   }
+
   @keyframes spark {
     0%,5%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
       opacity: 1;
@@ -184,3 +205,47 @@ body{
      
     }
   }
+
+  /* lettre transparente */
+  .bord_transparent{
+    letter-spacing: 0.35rem;
+    color: #C7C7C7;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+}
+.hover_effect:hover {
+  -webkit-text-fill-color: #C7C7C7;
+}
+
+
+/* ligne de séparation + ses médiaqueries */
+hr{
+  margin: 0 auto;
+  width: 215px;
+}
+
+@media screen and (min-width: 768px){
+ hr{
+  margin: 0 auto;
+  width: 470px;
+ } 
+}
+
+
+@media screen and (min-width: 1024px){
+  hr{
+   margin: 0 auto;
+   width: 1010px;
+  } 
+ }
+
+ @media screen and (min-width: 1536px){
+  hr{
+   margin: 0 auto;
+   width: 1160px;
+  } 
+ }
+
+
+
+

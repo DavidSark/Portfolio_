@@ -21,7 +21,7 @@
   
   
       <div class="flex justify-center items-center ">
-        <p class=" text-blanc_impur font-mitr my-3 md:my-8 uppercase text-4xl md:text-9xl daid_anim letter_spacing ">David</p>
+        <p class=" text-blanc_impur font-mitr my-3 md:my-8 uppercase text-4xl md:text-9xl titre_anim letter_spacing ">David</p>
       </div>
  
 
@@ -34,7 +34,7 @@
       </div>
 
       <div class="flex justify-center items-center mt-16">
-        <p class="font-poppins text-base md:text-26 uppercase text-blanc_impur light_anim ">discover</p>
+        <RouterLink to="/works" class="font-poppins text-base md:text-26 uppercase text-blanc_impur light_anim ">discover</RouterLink>
       </div>
 
 

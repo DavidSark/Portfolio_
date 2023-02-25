@@ -22,15 +22,22 @@ module.exports = {
         '1rem': '1rem',
         '26': '1.625rem',
         '64': '4.25em',
+        '3rem': '3.5rem',
         '12.5rem': '12.5rem',
-        '5rem': '5rem'
+        '5rem': '5rem',
+        
       },
 
       borderWidth: {
         default: '1px',
       },
       
-      
+      padding:{
+        '23rem': '23rem'
+      },
+      width:{
+        "32.5rem": "36rem"
+      }
 
 
     },
