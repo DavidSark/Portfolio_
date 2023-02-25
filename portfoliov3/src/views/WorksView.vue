@@ -32,7 +32,7 @@
                   <transition name="fade">
                     <img
                       v-show="showNaknowledgeImage"
-                        class="hidden  w-30rem lg:inline-block absolute bottom-52 right-0 ml-2 xl:bottom-64 xl:w-32.5rem h-auto transform translate-y-full"
+                        class="hidden  w-30rem lg:inline-block absolute bottom-52 right-0 ml-2 2xl:bottom-64 2xl:w-32.5rem h-auto transform translate-y-full"
                         src="../assets/img/naknowledge.PNG"
                         alt="Image"
                       :style="naknowledgeImageStyle" />
@@ -50,7 +50,7 @@
                   <transition name="fade">
                     <img 
                     v-show="showCountryImage" 
-                      class="hidden w-30rem lg:inline-block absolute bottom-52 right-0 ml-2 xl:bottom-64 xl:w-32.5rem h-auto transform translate-y-full"
+                      class="hidden w-30rem lg:inline-block absolute bottom-52 right-0 ml-2 2xl:bottom-64 2xl:w-32.5rem h-auto transform translate-y-full"
                       src="../assets/img/Ghostie.PNG"
                       alt="Image"
                       :style="countryImageStyle" />
