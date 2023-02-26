@@ -18,6 +18,9 @@
 body{
     background-color: black;
     color: white;
+  
+    overflow-x: hidden;
+    
 }
 
 /*code pour couleur aléatoire*/
@@ -350,3 +353,23 @@ hr{
   .about_hover:hover p{
     color: #A3A3A3;
   }
+
+/* modification du curseur pour les formats pc */
+/* @media screen and (min-width:1024px){
+  .cursor{
+      width: 8px;
+      height: 8px;
+      border: 1px solid white;
+      border-radius: 50%;
+      position: absolute;
+      z-index: -99;
+      pointer-events: none;
+      animation: spark .75s infinite alternate; 
+  }
+  .expand{
+      animation: clique .2s;
+      border: 1px solid white;
+      border-radius: 50%;
+  }    
+}
+ */

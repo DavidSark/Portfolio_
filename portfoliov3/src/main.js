@@ -33,3 +33,8 @@ window.addEventListener('load', () => {
   const animEl = document.querySelector('.light_anim');
   animEl.style.color = randomColor;
   
+
+
+  //pour le curseur 
+  
+  
