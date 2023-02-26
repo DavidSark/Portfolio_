@@ -8,6 +8,7 @@ module.exports = {
       "colors": {
         violet: '#BF98F1',
         blanc_impur: '#C7C7C7',
+        noir_impur: "#343434",
         rouge_clair: '#F19898',
         vert_clair: '#98F1C6',
       },
@@ -15,6 +16,8 @@ module.exports = {
       "fontFamily": {
         poppins: ['Poppins', 'sans-serif'],
         mitr: ['Mitr', 'sans-serif'],
+        reem: ['Reem Kufi', 'sans-serif'],
+        raleway: ['Raleway', 'sans-serif']
       },
 
       fontSize: {
@@ -36,11 +39,16 @@ module.exports = {
         '23rem': '23rem'
       },
       width:{
+        "17.5rem": "17.5rem",
+        "20rem":"20rem",
         "32.5rem": "36rem",
         '30rem': '30rem',
-      }
-
-
+        "34.26rem":'34.26rem',
+        '58.75rem': '58.75rem'
+      },
+      height:{
+        "19.375": "19.5rem"
+      },
     },
 
   },
