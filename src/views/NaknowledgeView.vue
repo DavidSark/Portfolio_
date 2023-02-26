@@ -29,7 +29,7 @@
 
             <section>
                     <div class="max-w-max m-auto">
-                            <img src="/naknowledge_home.png">
+                            <img src="@/assets/img/naknowledge_home.png">
                     </div>
             </section>
 
@@ -60,11 +60,11 @@
                         <div class="">
                             <div class="px-5 lg:px-0">
                                 <div class="  ">
-                                    <img src="/naknowledge_logo.png">
+                                    <img src="@/assets/img/naknowledge_logo.png">
                                 </div>
                                 <div class=" flex">
-                                    <img class="w-1/2 h-auto" src="/old_logo.png">
-                                    <img class="w-1/2 h-auto" src="/new_logo.png">
+                                    <img class="w-1/2 h-auto" src="@/assets/img/old_logo.png">
+                                    <img class="w-1/2 h-auto" src="@/assets/img/new_logo.png">
                                 </div>
                             </div>
                         </div>
@@ -299,7 +299,7 @@
                                     </div>
                                     <div class="flex justify-center items-center flex-col space-y-4 ">
 
-                                        <img class="w-14" src="/figma_square.svg">
+                                        <img class="w-14" src="@/assets/img/figma_square.svg">
                                         <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">Figma</p>
 
                                     </div>
@@ -315,7 +315,7 @@
                                     </div>
                                     <div class="flex justify-center items-center flex-col space-y-4">
 
-                                        <img class="w-14" src="/html.svg">
+                                        <img class="w-14" src="@/assets/img/html.svg">
                                         <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">html</p>
 
                                     </div>
@@ -333,7 +333,7 @@
                                     </div>
                                     <div class="flex justify-center items-center flex-col space-y-4">
 
-                                        <img class="w-14" src="/css3.svg">
+                                        <img class="w-14" src="@/assets/img/css3.svg">
                                         <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">css</p>
 
                                     </div>
@@ -349,7 +349,7 @@
                                     </div>
                                     <div class="flex justify-center items-center flex-col space-y-4">
 
-                                        <img class="w-14" src="/php.svg">
+                                        <img class="w-14" src="@/assets/img/php.svg">
                                         <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">php</p>
 
                                     </div>
@@ -370,7 +370,7 @@
                                     </div>
                                     <div class="flex justify-center items-center flex-col space-y-4">
 
-                                        <img class="w-14" src="/wordpress.svg">
+                                        <img class="w-14" src="@/assets/img/wordpress.svg">
                                         <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">Wordpress
                                         </p>
 
@@ -390,7 +390,7 @@
 
                                     <div class="flex justify-center items-center flex-col space-y-4">
 
-                                        <img class="w-14" src="/adobe_illustrator.svg">
+                                        <img class="w-14" src="@/assets/img/adobe_illustrator.svg">
                                         <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">
                                             Illustrator</p>
 
@@ -410,7 +410,7 @@
 
             <section class="mt-20">
                     <div class="max-w-max m-auto">
-                            <img src="/naknowledge_mobile.png">
+                            <img src="@/assets/img/naknowledge_mobile.png">
                     </div>
             </section>
 
