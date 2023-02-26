@@ -68,8 +68,15 @@
 
        
 
-        <RouterLink to="/">Retour</RouterLink><br/>
-        <RouterLink to="/test">Test</RouterLink>
+        <section class="my-40">
+    <div class="flex justify-center items-center space-x-20 lg:space-x-44 uppercase">
+        <RouterLink to="/works" class="light_anim4">Works</RouterLink>
+        <RouterLink to="/" class="light_anim4 ">Test</RouterLink>
+    </div>
+</section>
+
+
+
     </div>
 </template>
 

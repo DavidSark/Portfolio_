@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import WorksView from '../views/WorksView.vue'
 import TestView from '../views/TestView.vue'
 import NaknowledgeView from '../views/NaknowledgeView.vue'
+import AboutView from '../views/AboutView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -11,6 +12,7 @@ const router = createRouter({
     { path: '/works', name: 'Works', component: WorksView},
     { path: '/test', name: 'Test', component: TestView},
     { path: '/naknow', name: 'Naknowledge', component: NaknowledgeView},
+    { path: '/about', name: 'About', component: AboutView},
     
 
     // ici les autre routes

@@ -53,6 +53,7 @@ body{
     height: 100vh;
 }
 
+/* espacement des lettres */
 .letter_spacing{
   letter-spacing: 3px;
 }
@@ -221,6 +222,12 @@ body{
   -webkit-text-fill-color: #C7C7C7;
 }
 
+.bord_transparent_noir{
+  letter-spacing: 0.35rem;
+  color: #000000;
+-webkit-text-fill-color: transparent;
+-webkit-text-stroke-width: 1px;
+}
 
 /* ligne de séparation + ses médiaqueries */
 hr{
@@ -252,3 +259,55 @@ hr{
 
 
 
+
+ /* cards
+ .card:hover .text_disparait {
+  opacity: 0;
+}
+.card:hover .text_hover {
+  opacity: 1;
+}
+.text_hover {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+} */
+
+
+
+
+.bloc_hover{
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top:0;
+  left: 0;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.3s ;
+}
+
+
+.card:hover .bloc_hover{
+ opacity: 1;
+}
+
+
+.light_anim3{
+  -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+  line-height: 0.70em;
+}
+
+
+
+.light_anim4{
+    letter-spacing: 3px; 
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+    line-height: 0.70em;
+    text-shadow: 0 0 15px #fff;
+    animation: spark 2s ease infinite;
+   }

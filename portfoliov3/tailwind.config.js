@@ -11,6 +11,9 @@ module.exports = {
         noir_impur: "#343434",
         rouge_clair: '#F19898',
         vert_clair: '#98F1C6',
+        violet_nano: '#9546FF',
+        violet_clair: '#E1C6FF',
+        gris_clair: '#818181',
       },
 
       "fontFamily": {

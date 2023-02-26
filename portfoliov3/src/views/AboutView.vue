@@ -12,27 +12,18 @@
                 <div class="flex justify-center items-center ">
                     <p
                         class=" text-blanc_impur font-mitr my-3 md:my-8 uppercase text-4xl md:text-9xl titre_anim letter_spacing ">
-                        works</p>
+                        About</p>
                 </div>
 
                 <div class="ligne1 border-default border-blanc_impur "></div>
 
                 <div class="flex justify-center items-center mt-16">
-                    <RouterLink to="/works"
-                        class="font-poppins text-base md:text-26 uppercase text-blanc_impur light_anim2 ">Naknowledge
-                    </RouterLink>
+                    <p
+                        class="font-poppins text-base md:text-26 uppercase text-blanc_impur light_anim2 ">Me
+                </p>
                 </div>
 
             </main>
-
-
-
-            <section>
-                    <div class="max-w-max m-auto">
-                            <img src="../assets/img/naknowledge_home.png">
-                    </div>
-            </section>
-
 
 
 
@@ -41,12 +32,12 @@
             <section class="mt-20">
 
                 <div class="max-w-xl mx-auto items-center lg:max-w-7xl  lg:px-28">
-                    <div class=" lg:grid lg:gap-x-0 lg:grid-cols-2 ">
+                    <div class=" ">
                         <div class="lg:pr-14 flex flex-col justify-center">
 
                             <h2 class=" pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color">
-                                <span class=" bord_transparent font-extrabold">Design &amp; </span> <br /> <span
-                                    class="font-bold"> logo </span>
+                                <span class=" bord_transparent font-extrabold">Who </span> <br /> <span
+                                    class="font-bold"> am i </span>
                             </h2>
                             <p class="pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">Chocolate cake liquorice
                                 oat cake caramels danish. Icing chocolate bar donut sweet candy chocolate cake bonbon lemon
@@ -57,17 +48,6 @@
 
                         </div>
 
-                        <div class="">
-                            <div class="px-5 lg:px-0">
-                                <div class="  ">
-                                    <img src="../assets/img/naknowledge_logo.png">
-                                </div>
-                                <div class=" flex">
-                                    <img class="w-1/2 h-auto" src="../assets/img/old_logo.png">
-                                    <img class="w-1/2 h-auto" src="../assets/img/new_logo.png">
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
 
