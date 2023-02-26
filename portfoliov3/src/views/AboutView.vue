@@ -86,11 +86,11 @@
 
                         <div class="pl-5 pr-5 lg:pl-0 lg:pr-0">
                             <div class="about_hover bg-gris font-poppins  lg:min-h-full">
-                                <div class="text-center p-16">
+                                <div class="whitespace-nowrap text-center p-16">
                                     <p class="text-xl text-noir_impur font-extrabold uppercase letter_spacing">More info</p>
                                 </div>
-                                <div class="mb-5 px-14 2xl:px-32 text-base  text-noir_impur font-bold letter_spacing ">
-                                    <p>david.sarkissian@gmail.com</p>
+                                <div class="overflow-visible mb-5 px-14 2xl:px-32 text-base  text-noir_impur font-bold letter_spacing ">
+                                    <p>david.sarkissian@<br class="sm:hidden"/>gmail.com</p>
                                 </div>
                                 <div class="my-5 px-14 2xl:px-32 text-base  text-noir_impur font-bold letter_spacing ">
                                     <p>Based in France</p>
