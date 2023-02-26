@@ -27,9 +27,9 @@
         <ul class=" flex flex-col justify-center items-center">
             <li class="">
               
-                <RouterLink to="/naknow" class="lg:flex lg:justify-between  relative font-poppins text-lg md:text-5xl lg:text-5xl 2xl:text-3rem uppercase text-vert_clair random-color tracking-widest letter_spacing" >
+                <RouterLink to="/naknow" class="lg:flex lg:justify-between  relative font-poppins text-lg md:text-5xl lg:text-5xl 2xl:text-3rem uppercase text-vert_clair tracking-widest letter_spacing" >
                   <span  @mouseover="showImage('naknowledge')" @mouseleave="hideImage('naknowledge')" class=" name bord_transparent block lg:inline-block font-extrabold hover_effect max-w-6xl lg:w-1/2">Naknowledge</span> <span class="hidden lg:inline-block">|</span> 
-                  <span class="lg:pt-1">School project</span>
+                  <span class="lg:pt-1  random-color">School project</span>
                     
                   <transition name="fade">
                     <img
@@ -47,9 +47,9 @@
             
 
             <li class="">
-                <RouterLink to="/works" class="lg:flex lg:justify-between relative font-poppins text-lg md:text-5xl lg:text-5xl 2xl:text-3rem uppercase text-vert_clair random-color tracking-widest letter_spacing" >
+                <RouterLink to="/works" class="lg:flex lg:justify-between relative font-poppins text-lg md:text-5xl lg:text-5xl 2xl:text-3rem uppercase text-vert_clair tracking-widest letter_spacing" >
                   <span  @mouseover="showImage('ghostie')" @mouseleave="hideImage('ghostie')" class=" bord_transparent block lg:inline-block font-extrabold 
-                  hover_effect max-w-6xl lg:w-1/2">Ghostie</span> <span class="hidden lg:inline-block ">|</span> <span class="lg:pt-1">School project</span>
+                  hover_effect max-w-6xl lg:w-1/2">Ghostie</span> <span class="hidden lg:inline-block ">|</span> <span class="lg:pt-1 random-color">School project</span>
 
                   <transition name="fade">
                     <img 

@@ -5,7 +5,7 @@
 
         <div id="container ">
 
-            <main class="flex items-center flex-col justify-center h-screen random-color ">
+            <main class="flex items-center flex-col justify-center h-screen  ">
 
                 <div class="ligne0  border-default border-blanc_impur "></div>
 
@@ -35,7 +35,7 @@
                         <div class="flex flex-col justify-center">
 
                             <h2 class=" pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color">
-                                <span class=" bord_transparent font-extrabold">Who </span> <br /> <span class="font-bold">
+                                <span class=" bord_transparent font-extrabold">Who </span> <br /> <span class="font-bold random-color">
                                     am i </span>
                             </h2>
                             <p class="pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">Chocolate cake liquorice
@@ -63,7 +63,7 @@
 
                             <h2 class=" pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color">
                                 <span class=" bord_transparent font-extrabold">get in </span> <br /> <span
-                                    class="font-bold">
+                                    class="font-bold random-color">
                                     touch </span>
                             </h2>
                             <form action="envoyer.php" method="post"
