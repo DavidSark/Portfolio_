@@ -35,7 +35,7 @@
                     <img
                       v-show="showNaknowledgeImage"
                         class="hidden  w-30rem lg:inline-block absolute bottom-52 right-0 ml-2 2xl:bottom-64 2xl:w-32.5rem h-auto transform translate-y-full"
-                        src="../assets/img/naknowledge.PNG"
+                        src="../assets/img/naknowledge.png"
                         alt="Image"
                       :style="naknowledgeImageStyle" />
                   </transition>
@@ -55,7 +55,7 @@
                     <img 
                     v-show="showGhostieImage" 
                       class="hidden w-30rem lg:inline-block absolute bottom-52 right-0 ml-2 2xl:bottom-64 2xl:w-32.5rem h-auto transform translate-y-full"
-                      src="../assets/img/ghostie.PNG"
+                      src="../assets/img/ghostie.png"
                       alt="Image"
                       :style="ghostieImageStyle" />
                   </transition>
