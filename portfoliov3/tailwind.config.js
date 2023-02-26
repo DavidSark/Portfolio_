@@ -14,6 +14,7 @@ module.exports = {
         violet_nano: '#9546FF',
         violet_clair: '#E1C6FF',
         gris_clair: '#818181',
+        gris: '#A3A3A3',
       },
 
       "fontFamily": {
@@ -51,6 +52,7 @@ module.exports = {
       },
       height:{
         "19.375": "19.5rem"
+        
       },
     },
 
