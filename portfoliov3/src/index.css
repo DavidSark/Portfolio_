@@ -260,21 +260,8 @@ hr{
 
 
 
- /* cards
- .card:hover .text_disparait {
-  opacity: 0;
-}
-.card:hover .text_hover {
-  opacity: 1;
-}
-.text_hover {
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-} */
-
-
-
-
+ /* cards */
+/* animation des cards */
 .bloc_hover{
  
   display: flex;
@@ -311,3 +298,42 @@ hr{
     text-shadow: 0 0 15px #fff;
     animation: spark 2s ease infinite;
    }
+
+
+
+   /* formulaire */
+/* style pour le formulaire */
+   
+  
+  input, textarea {
+    border: none;
+    border-bottom: 2px solid #A3A3A3;
+    background-color: transparent;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  input:focus, textarea:focus {
+    outline: none;
+    border-bottom-color: #555555;
+  }
+  
+  input::placeholder, textarea::placeholder {
+    color: #D9D9D9;
+  }
+  
+  input[type="submit"] {
+    width: 50%;
+    background-color: #A3A3A3;
+    color: #282828;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #282828;
+    color: #A3A3A3;
+  }
+  
