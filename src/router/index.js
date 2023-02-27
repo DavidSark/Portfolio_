@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import WorksView from '../views/WorksView.vue'
 import TestView from '../views/TestView.vue'
 import NaknowledgeView from '../views/NaknowledgeView.vue'
+import AskmeView from '../views/AskmeView.vue'
 import AboutView from '../views/AboutView.vue'
 
 const router = createRouter({
@@ -12,6 +13,7 @@ const router = createRouter({
     { path: '/works', name: 'Works', component: WorksView},
     { path: '/test', name: 'Test', component: TestView},
     { path: '/naknow', name: 'Naknowledge', component: NaknowledgeView},
+    { path: '/askme', name: 'Askme', component: AskmeView},
     { path: '/about', name: 'About', component: AboutView},
     
 

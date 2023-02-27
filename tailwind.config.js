@@ -15,13 +15,19 @@ module.exports = {
         violet_clair: '#E1C6FF',
         gris_clair: '#818181',
         gris: '#A3A3A3',
+        ask_dark: '#1C1C1C',
+        ask_blue_dark: '#3316E3',
+        ask_blue_clear: '#77D1D7',
+        ask_grey: '#F6F6F6',
+
       },
 
       "fontFamily": {
         poppins: ['Poppins', 'sans-serif'],
         mitr: ['Mitr', 'sans-serif'],
         reem: ['Reem Kufi', 'sans-serif'],
-        raleway: ['Raleway', 'sans-serif']
+        raleway: ['Raleway', 'sans-serif'],
+        quicksand: ['Quicksand', 'sans-serif']
       },
 
       fontSize: {

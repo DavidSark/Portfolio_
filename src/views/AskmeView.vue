@@ -19,7 +19,7 @@
 
                 <div class="flex justify-center items-center mt-16">
                     <p 
-                        class="font-poppins text-base md:text-26 uppercase text-blanc_impur light_anim2 ">Naknowledge
+                        class="font-poppins text-base md:text-26 uppercase text-blanc_impur light_anim2 ">Askme
                 </p>
                 </div>
 
@@ -28,8 +28,9 @@
 
 
             <section>
-                    <div class="max-w-max m-auto">
-                            <img src="@/assets/img/naknowledge_home.png">
+                    <div class="max-w-max m-auto relative">
+                            <img src="@/assets/img/askme_home.png">
+                            <a href="https://askme.melinaweb.fr/" class=" absolute inset-x-0 flex flex-col bottom-0  mb-10  sm:mb-16  md:mb-20  items-center justify-end font-poppins text-base md:text-26 uppercase text-noir_impur light_anim2 ">Askme</a>
                     </div>
             </section>
 
@@ -60,11 +61,11 @@
                         <div class="">
                             <div class="px-5 lg:px-0">
                                 <div class="  ">
-                                    <img src="@/assets/img/naknowledge_logo.png">
+                                    <img src="@/assets/img/askme.png">
                                 </div>
                                 <div class=" flex">
-                                    <img class="w-1/2 h-auto" src="@/assets/img/old_logo.png">
-                                    <img class="w-1/2 h-auto" src="@/assets/img/new_logo.png">
+                                    <img class="w-1/2 h-auto" src="@/assets/img/askme_old.png">
+                                    <img class="w-1/2 h-auto" src="@/assets/img/askme_new.png">
                                 </div>
                             </div>
                         </div>
@@ -97,9 +98,9 @@
                         </div>
 
                         <div class="pl-5 pr-5 lg:pl-0 lg:pr-0">
-                            <div class="p-6 bg-blanc_impur font-reem">
+                            <div class="p-6 bg-blanc_impur font-quicksand">
                                 <div class="mb-8">
-                                    <h3 class="text-xl font-bold text-noir_impur mb-2">Reem Kufi</h3>
+                                    <h3 class="text-xl font-bold text-noir_impur mb-2">Quicksand</h3>
                                     <p class="text-sm text-noir_impur mb-2">Regular</p>
                                     <p class="text-sm font-medium text-noir_impur mb-2">Medium</p>
                                     <p class="text-sm font-bold text-noir_impur mb-2">Bold</p>
@@ -155,12 +156,12 @@
                         </div>
 
                         <div class="pl-5 pr-5 lg:pl-0 lg:pr-0">
-                            <div class="p-6 bg-violet_nano font-poppins">
+                            <div class="p-6 bg-ask_blue_dark font-poppins">
                                 <div class="mb-8">
                                     <p class="text-lg text-blanc_impur font-extrabold bord_transparent uppercase">Primary
                                     </p>
                                     <p class="text-lg text-blanc_impur font-extrabold uppercase letter_spacing">Color</p>
-                                    <p class="text-lg text-blanc_impur font-extrabold uppercase letter_spacing ">Dark Purple
+                                    <p class="text-lg text-blanc_impur font-extrabold uppercase letter_spacing ">Dark Blue
                                     </p>
 
                                 </div>
@@ -168,7 +169,7 @@
 
                                 <div>
 
-                                    <p class="text-xl text-blanc_impur font-extrabold bord_transparent uppercase">#9546FF
+                                    <p class="text-xl text-blanc_impur font-extrabold bord_transparent uppercase">#3316E3
                                     </p>
                                 </div>
                             </div>
@@ -210,27 +211,27 @@
                                 </div>
                             </div>
                             <div class="lg:flex">
-                                <div class="p-6 bg-violet_clair font-poppins lg:w-1/2">
+                                <div class="p-6 bg-ask_blue_clear font-poppins lg:w-1/2">
                                     <div class="mb-8">
                                         <p class="text-sm  font-extrabold bord_transparent_noir uppercase">Secondary </p>
                                         <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing">Color</p>
                                         <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing ">Clear
-                                            Purple</p>
+                                            Blue</p>
 
                                     </div>
 
 
                                     <div>
 
-                                        <p class="text-xl font-extrabold bord_transparent_noir uppercase">#000000</p>
+                                        <p class="text-xl font-extrabold bord_transparent_noir uppercase">#77D1D7</p>
                                     </div>
                                 </div>
-                                <div class="p-6 bg-gris_clair font-poppins lg:w-1/2">
+                                <div class="p-6 bg-ask_grey font-poppins lg:w-1/2">
                                     <div class="mb-8">
-                                        <p class="text-sm  font-extrabold bord_transparent uppercase">Secondary </p>
-                                        <p class="text-sm text-blanc_impur font-extrabold uppercase letter_spacing">Color
+                                        <p class="text-sm  font-extrabold bord_transparent_noir uppercase">Secondary </p>
+                                        <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing">Color
                                         </p>
-                                        <p class="text-sm text-blanc_impur font-extrabold uppercase letter_spacing ">Grey
+                                        <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing ">Grey
                                         </p>
 
                                     </div>
@@ -238,7 +239,7 @@
 
                                     <div>
 
-                                        <p class="text-xl font-extrabold bord_transparent uppercase">#FFFFFF</p>
+                                        <p class="text-xl font-extrabold bord_transparent_noir uppercase">#F6F6F6</p>
                                     </div>
                                 </div>
                             </div>
@@ -285,7 +286,7 @@
                                 jelly-o lollipop jelly-o.</p>
                         </div>
 
-                        <div class="pl-5 pr-5 lg:pl-0 lg:pr-0">
+                        <div class="pl-5 pr-5 lg:pl-0 lg:pr-0 flex flex-col justify-end">
 
                             <div class="lg:flex ">
 
@@ -344,13 +345,13 @@
 
                                     <div class="bloc_hover p-6">
 
-                                        <p class=" text-sm text-blanc_impur font-bold  ">PHP was used to create and call functions and data</p>
+                                        <p class=" text-sm text-blanc_impur font-bold  ">Photoshop was used to create the graphics</p>
 
                                     </div>
                                     <div class="flex justify-center items-center flex-col space-y-4">
 
-                                        <img class="w-14" src="@/assets/img/php.svg">
-                                        <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">php</p>
+                                        <img class="w-14" src="@/assets/img/adobe_photoshop.svg">
+                                        <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">Photoshop</p>
 
                                     </div>
 
@@ -358,48 +359,7 @@
 
 
                             </div>
-                            <div class="lg:flex">
-                                <div
-                                    class="card relative p-6 bg-blanc_impur font-poppins lg:w-1/2 flex justify-center items-center flex-col border-b-default lg:border-r-default border-black">
-
-
-                                    <div class="bloc_hover p-6">
-
-                                        <p class=" text-sm text-blanc_impur font-bold  ">Wordpress was the CMS used to allow an easier management of the site to my client</p>
-
-                                    </div>
-                                    <div class="flex justify-center items-center flex-col space-y-4">
-
-                                        <img class="w-14" src="@/assets/img/wordpress.svg">
-                                        <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">Wordpress
-                                        </p>
-
-                                    </div>
-
-                                </div>
-
-
-                                <div
-                                    class=" relative card p-6 bg-blanc_impur font-poppins lg:w-1/2 flex justify-center items-center flex-col border-b-default  border-black">
-
-                                    <div class="bloc_hover p-6">
-
-                                        <p class=" text-sm text-blanc_impur font-bold  ">Illustrator was used to make the logo and various graphic elements</p>
-
-                                    </div>
-
-                                    <div class="flex justify-center items-center flex-col space-y-4">
-
-                                        <img class="w-14" src="@/assets/img/adobe_illustrator.svg">
-                                        <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">
-                                            Illustrator</p>
-
-                                    </div>
-
-                                </div>
-
-
-                            </div>
+                         
 
                         </div>
                     </div>
@@ -408,11 +368,7 @@
             </section>
 
 
-            <section class="mt-20">
-                    <div class="max-w-max m-auto">
-                            <img src="@/assets/img/naknowledge_mobile.png">
-                    </div>
-            </section>
+           
 
 
             
