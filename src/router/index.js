@@ -4,6 +4,7 @@ import WorksView from '../views/WorksView.vue'
 import TestView from '../views/TestView.vue'
 import NaknowledgeView from '../views/NaknowledgeView.vue'
 import AskmeView from '../views/AskmeView.vue'
+import VeloView from '../views/VeloView.vue'
 import AboutView from '../views/AboutView.vue'
 
 const router = createRouter({
@@ -14,6 +15,7 @@ const router = createRouter({
     { path: '/test', name: 'Test', component: TestView},
     { path: '/naknow', name: 'Naknowledge', component: NaknowledgeView},
     { path: '/askme', name: 'Askme', component: AskmeView},
+    { path: '/velo', name: 'Velo', component: VeloView},
     { path: '/about', name: 'About', component: AboutView},
     
 

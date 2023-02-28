@@ -65,6 +65,26 @@
             
 
             <li class="">
+                <RouterLink to="/velo" class="lg:flex lg:justify-between lg:items-center relative font-poppins text-lg md:text-5xl lg:text-5xl 2xl:text-3rem uppercase text-vert_clair tracking-widest letter_spacing" >
+                  <span  @mouseover="showImage('velo')" @mouseleave="hideImage('velo')" class=" bord_transparent block lg:inline-block font-extrabold 
+                  hover_effect max-w-6xl lg:w-1/2"> Vélotaf</span> <span class="hidden lg:inline-block random-color ">|</span> <span class="lg:pt-1 random-color">School project</span>
+
+                  <transition name="fade">
+                    <img 
+                    v-show="showVeloImage" 
+                      class="hidden w-30rem lg:inline-block absolute bottom-52 right-0 ml-2 2xl:bottom-64 2xl:w-32.5rem h-auto transform translate-y-full"
+                      src="@/assets/img/velotaf.png"
+                      alt="Image"
+                      :style="veloImageStyle" />
+                  </transition>
+                </RouterLink>
+
+                <hr class="my-10 lg:my-32 test"/>
+            </li>
+
+
+
+            <li class="">
                 <RouterLink to="/works" class="lg:flex lg:justify-between relative font-poppins text-lg md:text-5xl lg:text-5xl 2xl:text-3rem uppercase text-vert_clair tracking-widest letter_spacing" >
                   <span  @mouseover="showImage('ghostie')" @mouseleave="hideImage('ghostie')" class=" bord_transparent block lg:inline-block font-extrabold 
                   hover_effect max-w-6xl lg:w-1/2">Ghostie</span> <span class="hidden lg:inline-block random-color ">|</span> <span class="lg:pt-1 random-color">School project</span>
@@ -105,10 +125,12 @@ export default {
       return {
         showNaknowledgeImage: false,
         showAskmeImage: false,
+        showVeloImage: false,
         showGhostieImage: false,
         naknowledgeImageStyle: {},
         askmeImageStyle: {},
-        ghostieImageStyle: {}
+        veloImageStyle: {},
+        ghostieImageStyle: {},
       }
     },
     methods: {

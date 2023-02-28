@@ -30,7 +30,7 @@
             <section>
                     <div class="max-w-max m-auto relative">
                             <img src="@/assets/img/askme_home.png">
-                            <a href="https://askme.melinaweb.fr/" class=" absolute inset-x-0 flex flex-col bottom-0  mb-10  sm:mb-16  md:mb-20  items-center justify-end font-poppins text-base md:text-26 uppercase text-noir_impur light_anim2 ">Askme</a>
+                            <a href="https://askme.melinaweb.fr/" target="_blank" class=" absolute inset-x-0 flex flex-col bottom-0  mb-10  sm:mb-16  md:mb-20  items-center justify-end font-poppins text-base md:text-26 uppercase text-noir_impur light_anim2 ">Askme</a>
                     </div>
             </section>
 
@@ -323,7 +323,7 @@
 
                                 </div>
                             </div>
-                            <div class="lg:flex">
+                            <div class="lg:flex justify-center">
                                 <div
                                     class="card relative p-6 bg-blanc_impur font-poppins lg:w-1/2 flex justify-center items-center flex-col border-b-default lg:border-r-default border-black">
 
@@ -340,22 +340,7 @@
                                     </div>
 
                                 </div>
-                                <div
-                                    class="card relative p-6 bg-blanc_impur font-poppins lg:w-1/2 flex justify-center items-center flex-col border-b-default border-black">
-
-                                    <div class="bloc_hover p-6">
-
-                                        <p class=" text-sm text-blanc_impur font-bold  ">Photoshop was used to create the graphics</p>
-
-                                    </div>
-                                    <div class="flex justify-center items-center flex-col space-y-4">
-
-                                        <img class="w-14" src="@/assets/img/adobe_photoshop.svg">
-                                        <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">Photoshop</p>
-
-                                    </div>
-
-                                </div>
+                               
 
 
                             </div>
