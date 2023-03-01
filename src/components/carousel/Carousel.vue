@@ -14,8 +14,7 @@
         :current-slide="currentSlide"
         :index="index"
         :direction="direction"
-        @mouseenter="stopSlideTimer"
-        @mouseout="startSlideTimer"
+       
       ></carousel-item>
       <carousel-controls
         v-if="controls"
@@ -45,9 +44,12 @@ export default {
       type: Boolean,
       default: false,
     },
-  
+    interval: {
+      type: Number,
+      default: false,
+    },
   },
-  components: { CarouselItem, CarouselControls, CarouselIndicators },
+  components: { CarouselItem, CarouselControls },
   data: () => ({
     currentSlide: 0,
     slideInterval: null,
@@ -64,7 +66,7 @@ export default {
           : this.slides.length - 1;
       this.setCurrentSlide(index);
       this.direction = "left";
-      this.startSlideTimer();
+     
     },
     _next(step = 1) {
       const index =
@@ -76,32 +78,11 @@ export default {
     },
     next(step = 1) {
       this._next(step);
-      this.startSlideTimer();
+      
     },
-    startSlideTimer() {
-      this.stopSlideTimer();
-      this.slideInterval = setInterval(() => {
-        this._next();
-      }, this.interval);
-    },
-    stopSlideTimer() {
-      clearInterval(this.slideInterval);
-    },
-    switchSlide(index) {
-      const step = index - this.currentSlide;
-      if (step > 0) {
-        this.next(step);
-      } else {
-        this.prev(step);
-      }
-    },
+    
   },
-  mounted() {
-    this.startSlideTimer();
-  },
-  beforeUnmount() {
-    this.stopSlideTimer();
-  },
+
 };
 </script>
 
@@ -112,8 +93,18 @@ export default {
 }
 .carousel-inner {
   position: relative;
-  width: 595px;
-  height: 420px;
+  width: 830px;
+  height: 590px;
   overflow: hidden;
+}
+
+@media screen and (max-width:340px )  {
+  .carousel-inner {
+    border: 2px solid red;
+  position: relative;
+  width: 830px;
+  height: 230px;
+  overflow: hidden;
+}
 }
 </style>
