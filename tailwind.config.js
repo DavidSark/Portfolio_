@@ -19,6 +19,9 @@ module.exports = {
         ask_blue_dark: '#3316E3',
         ask_blue_clear: '#77D1D7',
         ask_grey: '#F6F6F6',
+        velo_green_dark: '#129A8F',
+        velo_green_clear: '#6AEAA3',
+        velo_black: '#4C4C4C',
 
       },
 

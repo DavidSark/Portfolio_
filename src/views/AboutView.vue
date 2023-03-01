@@ -89,8 +89,8 @@
                                 <div class="whitespace-nowrap text-center p-16">
                                     <p class="text-xl text-noir_impur font-extrabold uppercase letter_spacing">More info</p>
                                 </div>
-                                <div class="overflow-visible mb-5 px-14 2xl:px-32 text-base  text-noir_impur font-bold letter_spacing ">
-                                    <p>david.sarkissian@<br class="sm:hidden"/>gmail.com</p>
+                                <div class="mb-5 px-14 2xl:px-32 text-base  text-noir_impur font-bold letter_spacing ">
+                                    <p>david.sarkissiann@<br class="sm:hidden"/>gmail.com</p>
                                 </div>
                                 <div class="my-5 px-14 2xl:px-32 text-base  text-noir_impur font-bold letter_spacing ">
                                     <p>Based in France</p>

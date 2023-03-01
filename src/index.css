@@ -157,7 +157,7 @@ body{
   } 
 
 
-/* animation pour le bouton discord en mode néon T_T */
+/* animation pour le bouton discover en mode néon T_T */
 .light_anim{
    
    letter-spacing: 10px; 
@@ -212,6 +212,8 @@ body{
     
    }
 
+
+/*animation pour les site cliquable*/
 
 
   /* lettre transparente */
@@ -287,14 +289,14 @@ hr{
  opacity: 1;
 }
 
-
+/* nom des logciel dans les cards */
 .light_anim3{
   -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
   line-height: 0.70em;
 }
 
 
-
+/* animation des boutons du menu about & works */
 .light_anim4{
     letter-spacing: 3px; 
     -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
@@ -354,6 +356,42 @@ hr{
   .about_hover:hover p{
     color: #A3A3A3;
   }
+
+
+
+/* à voir si je le mets ou pas */
+  /* .light_anim5{
+   
+    letter-spacing: 10px; 
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+    line-height: 0.70em;
+    text-shadow: 0 0 15px #1a1a1a;
+    opacity: 0;
+    animation: spark2 10s ease infinite;
+    animation-delay: 1.5s;
+   }
+
+   
+  @keyframes spark2 {
+    0%,5%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+      opacity: 1;
+      color: #1a1a1a;
+      text-shadow: none;
+      
+    }
+    5.1%,18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+      color: #1a1a1a;
+      opacity: 1;
+      text-shadow: 0 0 5px #1a1a1a,
+       0 0 10px #1a1a1a,
+       0 0 20px #1a1a1a,
+       0 0 40px #1a1a1a,
+       0 0 80px #1a1a1a;
+     
+    }
+  } */
+
+
 
 /* modification du curseur pour les formats pc */
 /* @media screen and (min-width:1024px){
