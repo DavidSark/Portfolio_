@@ -229,22 +229,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <section class="mt-20">
 
 <div class="max-w-xl mx-auto items-center lg:max-w-7xl  lg:px-28">
