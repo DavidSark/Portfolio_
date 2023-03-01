@@ -11,15 +11,15 @@
 
                 <div class="flex justify-center items-center ">
                     <p
-                        class=" text-blanc_impur font-mitr my-3 md:my-8 uppercase text-4xl md:text-9xl titre_anim letter_spacing ">
-                        works</p>
+                        class=" text-blanc_impur font-mitr my-3 md:my-8 uppercase text-4xl lg:text-6xl 2xl:text-9xl titre_anim letter_spacing ">
+                        Naknowledge</p>
                 </div>
 
                 <div class="ligne1 border-default border-blanc_impur "></div>
 
                 <div class="flex justify-center items-center mt-16">
                     <p 
-                        class="font-poppins text-base md:text-26 uppercase text-blanc_impur light_anim2 ">Naknowledge
+                        class="font-poppins text-base md:text-26 uppercase text-blanc_impur light_anim2 ">School project
                 </p>
                 </div>
 

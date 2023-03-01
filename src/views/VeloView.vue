@@ -12,14 +12,14 @@
                 <div class="flex justify-center items-center ">
                     <p
                         class=" text-blanc_impur font-mitr my-3 md:my-8 uppercase text-4xl md:text-9xl titre_anim letter_spacing ">
-                        works</p>
+                        Unicycle</p>
                 </div>
 
                 <div class="ligne1 border-default border-blanc_impur "></div>
 
                 <div class="flex justify-center items-center mt-16">
                     <p 
-                        class="font-poppins text-base md:text-26 uppercase text-blanc_impur light_anim2 ">vélotaf
+                        class="font-poppins text-base md:text-26 uppercase text-blanc_impur light_anim2 ">school project
                 </p>
                 </div>
 
@@ -31,7 +31,7 @@
  <section>
                     <div class="max-w-max m-auto relative">
                             <img src="@/assets/img/velotaf_home.png">
-                            <a href="https://sae202.davidsarkissian.fr/" target="_blank" class=" absolute inset-x-0 flex flex-col bottom-0  mb-10  sm:mb-16  md:mb-20  items-center justify-end font-poppins text-base md:text-26 uppercase text-noir_impur letter_spacing light_anim3 ">velotaf</a>
+                            <a href="https://sae202.davidsarkissian.fr/" target="_blank" class=" absolute inset-x-0 flex flex-col bottom-0  mb-10  sm:mb-16  md:mb-20  items-center justify-end font-poppins text-base md:text-26 uppercase text-noir_impur letter_spacing light_anim3 ">visit the site</a>
                     </div>
             </section>
 

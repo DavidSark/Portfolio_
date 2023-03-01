@@ -12,15 +12,15 @@
                 <div class="flex justify-center items-center ">
                     <p
                         class=" text-blanc_impur font-mitr my-3 md:my-8 uppercase text-4xl md:text-9xl titre_anim letter_spacing ">
-                        works</p>
+                        Askme</p>
                 </div>
 
                 <div class="ligne1 border-default border-blanc_impur "></div>
 
                 <div class="flex justify-center items-center mt-16">
-                    <p 
-                        class="font-poppins text-base md:text-26 uppercase text-blanc_impur light_anim2 ">Askme
-                </p>
+                    <a   href="https://askme.melinaweb.fr/" target="_blank" 
+                        class="font-poppins text-base md:text-26 uppercase text-blanc_impur light_anim2 ">School project
+                </a>
                 </div>
 
             </main>
@@ -30,7 +30,7 @@
             <section>
                     <div class="max-w-max m-auto relative">
                             <img src="@/assets/img/home_askme.png">
-                            <a href="https://askme.melinaweb.fr/" target="_blank" class=" absolute inset-x-0 flex flex-col bottom-0  mb-10  sm:mb-16  md:mb-20  items-center justify-end font-poppins text-base md:text-26 uppercase text-noir_impur letter_spacing light_anim3 ">Askme</a>
+                            <a href="https://askme.melinaweb.fr/" target="_blank" class=" absolute inset-x-0 flex flex-col bottom-0  mb-10  sm:mb-16  md:mb-20  items-center justify-end font-poppins text-base md:text-26 uppercase text-noir_impur letter_spacing light_anim3 ">Visit the site</a>
                     </div>
             </section>
 

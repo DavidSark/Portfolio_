@@ -15,9 +15,9 @@
 
                 <div class="ligne1 border-default border-blanc_impur "></div>
 
-                <div class="flex justify-center items-center mt-16">
+                <!-- <div class="flex justify-center items-center mt-16">
                      <p class="font-poppins text-base md:text-26 uppercase text-blanc_impur light_anim2 ">scroll down</p>
-                </div>
+                </div> -->
 
             </main>
             
@@ -43,6 +43,8 @@
 
                 <hr class="my-10 lg:my-32 test"/>
             </li>
+
+          
 
             <li class="">
               
@@ -82,7 +84,24 @@
                 <hr class="my-10 lg:my-32 test"/>
             </li>
 
+            <li class="">
+                
+                <RouterLink to="/mmi" class="lg:flex lg:justify-between  relative font-poppins text-lg md:text-5xl lg:text-5xl 2xl:text-3rem uppercase text-vert_clair tracking-widest letter_spacing" >
+                  <span  @mouseover="showImage('mmi')" @mouseleave="hideImage('mmi')" class=" name bord_transparent block lg:inline-block font-extrabold hover_effect max-w-6xl lg:w-1/2">MMI</span> <span class="hidden lg:inline-block random-color">|</span> 
+                  <span class="lg:pt-1  random-color">School project</span>
+                    
+                  <transition name="fade">
+                    <img
+                      v-show="showMmiImage"
+                        class="hidden  w-30rem lg:inline-block absolute bottom-52 right-0 ml-2 2xl:bottom-64 2xl:w-32.5rem h-auto transform translate-y-full"
+                        src="@/assets/img/naknowledge.png"
+                        alt="Image"
+                      :style="mmiImageStyle" />
+                  </transition>
+                </RouterLink>
 
+                <hr class="my-10 lg:my-32 test"/>
+            </li>
 
             <li class="">
                 <RouterLink to="/works" class="lg:flex lg:justify-between relative font-poppins text-lg md:text-5xl lg:text-5xl 2xl:text-3rem uppercase text-vert_clair tracking-widest letter_spacing" >
@@ -102,6 +121,10 @@
                 <hr class="my-10 lg:my-32 test"/>
             </li>
 
+
+
+
+            
         </ul>
 
 
@@ -126,10 +149,12 @@ export default {
         showNaknowledgeImage: false,
         showAskmeImage: false,
         showVeloImage: false,
+        showMmiImage: false,
         showGhostieImage: false,
         naknowledgeImageStyle: {},
         askmeImageStyle: {},
         veloImageStyle: {},
+        mmiImageStyle: {},
         ghostieImageStyle: {},
       }
     },

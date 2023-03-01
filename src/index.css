@@ -85,7 +85,7 @@ body{
   } 
 
  /* adaptation de l'animation pour les devices haut dessus de 768px */
-@media screen and (min-width:768px) {
+@media screen and (min-width:1024px) {
 .ligne0{
     animation: appearmd 1s forwards;
   } 
