@@ -29,7 +29,7 @@
 
             <section>
                     <div class="max-w-max m-auto relative">
-                            <img src="@/assets/img/askme_home.png">
+                            <img src="">
                             <a href="https://askme.melinaweb.fr/" target="_blank" class=" absolute inset-x-0 flex flex-col bottom-0  mb-10  sm:mb-16  md:mb-20  items-center justify-end font-poppins text-base md:text-26 uppercase text-noir_impur letter_spacing light_anim3 ">Askme</a>
                     </div>
             </section>
