@@ -214,13 +214,13 @@ export default {
   components: { Carousel },
   data: () => ({
     slides: [
-      "@/assets/img/mmi/slide1.jpg",
-      "@/assets/img/mmi/slide2.jpg",
-      "@/assets/img/mmi/slide3.jpg",
-      "@/assets/img/mmi/slide4.jpg",
-      "@/assets/img/mmi/slide5.jpg",
-      "@/assets/img/mmi/slide6.jpg",
-      "@/assets/img/mmi/slide7.jpg",
+      "/src/assets/img/mmi/slide1.jpg",
+      "/src/assets/img/mmi/slide2.jpg",
+      "/src/assets/img/mmi/slide3.jpg",
+      "/src/assets/img/mmi/slide4.jpg",
+      "/src/assets/img/mmi/slide5.jpg",
+      "/src/assets/img/mmi/slide6.jpg",
+      "/src/assets/img/mmi/slide7.jpg",
 
     ],
   }),
