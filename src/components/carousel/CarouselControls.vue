@@ -1,7 +1,8 @@
 <template>
-  <!-- in vue 2.x you need wrap these buttons in a div -->
-  <button class="carousel-control left" @click="$emit('prev')">Prev</button>
-  <button class="carousel-control right" @click="$emit('next')">Next</button>
+  <div class="relative flex justify-between h-full border-2 border-red-500">
+    <button class="carousel-control left" @click="$emit('prev')">Prev</button>
+    <button class="carousel-control right" @click="$emit('next')">Next</button>
+  </div>
 </template>
 
 <script>
@@ -15,15 +16,18 @@ export default {
   border: none;
   display: inline-block;
   position: absolute;
-  height: 50px;
+  height: max-content;
   width: 70px;
   top: calc(50% - 25px);
   color: #f3f3f3;
   cursor: pointer;
 }
+
 .left {
   left: 0;
+  bottom: 0;
 }
+
 .right {
   right: 0;
 }

@@ -18,9 +18,8 @@
                 <div class="ligne1 border-default border-blanc_impur "></div>
 
                 <div class="flex justify-center items-center mt-16">
-                    <p  
-                        class="font-poppins text-base md:text-26 uppercase text-blanc_impur light_anim2 ">School project
-                </p>
+                    <p class="font-poppins text-base md:text-26 uppercase text-blanc_impur light_anim2 ">School project
+                    </p>
                 </div>
 
             </main>
@@ -28,9 +27,9 @@
 
 
             <section>
-                    <div class="max-w-max m-auto relative">
-                            <img src="@/assets/img/mmi_home.png">
-                    </div>
+                <div class="max-w-max m-auto relative">
+                    <img src="@/assets/img/mmi_home.png">
+                </div>
             </section>
 
 
@@ -77,13 +76,30 @@
 
 
 
+            <section>
+                <div class="max-w-max m-auto relative mt-20">
+                    <img src="@/assets/img/mmi/slide2.jpg">
+                </div>
+
+                <div class="max-w-max m-auto relative mt-20">
+                    <img src="@/assets/img/mmi/slide3.jpg">
+                </div>
+
+                <div class="flex justify-center items-center mt-16">
+                    <a href=" src/assets/img/charte_mmi.pdf " download
+                        class="font-poppins text-base md:text-26 uppercase text-blanc_impur light_anim3 letter_spacing">Download</a>
+                </div>
 
 
-           
-            <div>
-                <carousel :slides="slides"  controls indicators></carousel>
-            </div>
+            </section>
 
+
+
+            <!-- 
+                <div>
+                    <carousel :slides="slides" controls indicators></carousel>
+                </div>
+             -->
 
 
 
@@ -102,8 +118,7 @@
                     <div class=" lg:grid lg:gap-x-0 lg:grid-cols-2 ">
                         <div class="lg:pr-14 flex flex-col justify-center">
                             <h2 class=" pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color ">
-                                <span class=" bord_transparent font-extrabold">tools </span> <br /> <span
-                                    class="font-bold">
+                                <span class=" bord_transparent font-extrabold">tools </span> <br /> <span class="font-bold">
                                     used </span>
                             </h2>
                             <p class="pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">Chocolate cake liquorice
@@ -123,13 +138,16 @@
 
                                     <div class="bloc_hover p-6">
 
-                                        <p class=" text-sm text-blanc_impur font-bold  ">Figma was used to make the layout of the website</p>
+                                        <p class=" text-sm text-blanc_impur font-bold  ">Figma was used to make the layout
+                                            of the website</p>
 
                                     </div>
                                     <div class="flex justify-center items-center flex-col space-y-4 ">
 
                                         <img class="w-14" src="@/assets/img/figma_square.svg">
-                                        <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">Figma</p>
+                                        <p
+                                            class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">
+                                            Figma</p>
 
                                     </div>
 
@@ -139,13 +157,16 @@
 
                                     <div class="bloc_hover p-6">
 
-                                        <p class=" text-sm text-blanc_impur font-bold  ">HTML was used the language used to hierarchize the elements of the website</p>
+                                        <p class=" text-sm text-blanc_impur font-bold  ">HTML was used the language used to
+                                            hierarchize the elements of the website</p>
 
                                     </div>
                                     <div class="flex justify-center items-center flex-col space-y-4">
 
                                         <img class="w-14" src="@/assets/img/html.svg">
-                                        <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">html</p>
+                                        <p
+                                            class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">
+                                            html</p>
 
                                     </div>
 
@@ -157,22 +178,25 @@
 
                                     <div class="bloc_hover p-6">
 
-                                        <p class=" text-sm text-blanc_impur font-bold  ">CSS was used to give a unique style to the site</p>
+                                        <p class=" text-sm text-blanc_impur font-bold  ">CSS was used to give a unique style
+                                            to the site</p>
 
                                     </div>
                                     <div class="flex justify-center items-center flex-col space-y-4">
 
                                         <img class="w-14" src="@/assets/img/css3.svg">
-                                        <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">css</p>
+                                        <p
+                                            class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">
+                                            css</p>
 
                                     </div>
 
                                 </div>
-                               
+
 
 
                             </div>
-                         
+
 
                         </div>
                     </div>
@@ -181,28 +205,28 @@
             </section>
 
 
-           
 
 
-            
+
+
         </div>
 
 
 
 
-<section class="my-40">
-    <div class="flex justify-center items-center space-x-20 lg:space-x-44 uppercase">
-        <RouterLink to="/works" class="light_anim4">Works</RouterLink>
-        <RouterLink to="/about" class="light_anim4 ">about</RouterLink>
-    </div>
-</section>
+        <section class="my-40">
+            <div class="flex justify-center items-center space-x-20 lg:space-x-44 uppercase">
+                <RouterLink to="/works" class="light_anim4">Works</RouterLink>
+                <RouterLink to="/about" class="light_anim4 ">about</RouterLink>
+            </div>
+        </section>
 
 
 
 
 
 
-       
+
     </div>
 </template>
 
@@ -210,20 +234,20 @@
 import Carousel from "../components/carousel/Carousel.vue";
 
 export default {
-  name: "App",
-  components: { Carousel },
-  data: () => ({
-    slides: [
-      "/src/assets/img/mmi/slide1.jpg",
-      "/src/assets/img/mmi/slide2.jpg",
-      "/src/assets/img/mmi/slide3.jpg",
-      "/src/assets/img/mmi/slide4.jpg",
-      "/src/assets/img/mmi/slide5.jpg",
-      "/src/assets/img/mmi/slide6.jpg",
-      "/src/assets/img/mmi/slide7.jpg",
+    name: "App",
+    components: { Carousel },
+    data: () => ({
+        slides: [
+            "/src/assets/img/mmi/slide1.jpg",
+            "/src/assets/img/mmi/slide2.jpg",
+            "/src/assets/img/mmi/slide3.jpg",
+            "/src/assets/img/mmi/slide4.jpg",
+            "/src/assets/img/mmi/slide5.jpg",
+            "/src/assets/img/mmi/slide6.jpg",
+            "/src/assets/img/mmi/slide7.jpg",
 
-    ],
-  }),
+        ],
+    }),
 };
 </script>
 

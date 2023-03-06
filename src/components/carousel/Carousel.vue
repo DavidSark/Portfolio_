@@ -1,26 +1,11 @@
 <template>
-  <div class="carousel">
+  <div class="carousel flex item">
     <div class="carousel-inner">
-      <carousel-indicators
-        v-if="indicators"
-        :total="slides.length"
-        :current-index="currentSlide"
-        @switch="switchSlide($event)"
-      ></carousel-indicators>
-      <carousel-item
-        v-for="(slide, index) in slides"
-        :slide="slide"
-        :key="`item-${index}`"
-        :current-slide="currentSlide"
-        :index="index"
-        :direction="direction"
-       
-      ></carousel-item>
-      <carousel-controls
-        v-if="controls"
-        @prev="prev"
-        @next="next"
-      ></carousel-controls>
+      <carousel-indicators v-if="indicators" :total="slides.length" :current-index="currentSlide"
+        @switch="switchSlide($event)"></carousel-indicators>
+      <carousel-item v-for="(slide, index) in slides" :slide="slide" :key="`item-${index}`" :current-slide="currentSlide"
+        :index="index" :direction="direction"></carousel-item>
+      <carousel-controls v-if="controls" @prev="prev" @next="next"></carousel-controls>
     </div>
   </div>
 </template>
@@ -66,7 +51,7 @@ export default {
           : this.slides.length - 1;
       this.setCurrentSlide(index);
       this.direction = "left";
-     
+
     },
     _next(step = 1) {
       const index =
@@ -78,9 +63,9 @@ export default {
     },
     next(step = 1) {
       this._next(step);
-      
+
     },
-    
+
   },
 
 };
@@ -91,6 +76,7 @@ export default {
   display: flex;
   justify-content: center;
 }
+
 .carousel-inner {
   position: relative;
   width: 830px;
@@ -98,13 +84,13 @@ export default {
   overflow: hidden;
 }
 
-@media screen and (max-width:340px )  {
+@media screen and (max-width:340px) {
   .carousel-inner {
     border: 2px solid red;
-  position: relative;
-  width: 830px;
-  height: 230px;
-  overflow: hidden;
-}
+    position: relative;
+    width: 830px;
+    height: 230px;
+    overflow: hidden;
+  }
 }
 </style>
