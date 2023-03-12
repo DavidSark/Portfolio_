@@ -18,19 +18,24 @@
                 <div class="ligne1 border-default border-blanc_impur "></div>
 
                 <div class="flex justify-center items-center mt-16">
-                    <p 
-                        class="font-poppins text-base md:text-26 uppercase text-blanc_impur light_anim2 ">School project
-                </p>
+                    <p class="font-poppins text-base md:text-26 uppercase text-blanc_impur light_anim2 ">School project
+                    </p>
                 </div>
 
             </main>
 
+            <section class="my-40 sticky top-0 bg-[#090909] p-10 z-10">
+                <div class="flex justify-center items-center space-x-20 lg:space-x-44 uppercase">
+                    <RouterLink to="/works" class="light_anim4">Works</RouterLink>
+                    <RouterLink to="/about" class="light_anim4 ">About</RouterLink>
+                </div>
+            </section>
 
 
-            <section>
-                    <div class="max-w-max m-auto">
-                            <img src="@/assets/img/naknowledge_home.png">
-                    </div>
+            <section data-aos="fade-right">
+                <div class="max-w-max m-auto">
+                    <img src="@/assets/img/naknowledge_home.png">
+                </div>
             </section>
 
 
@@ -42,7 +47,7 @@
 
                 <div class="max-w-xl mx-auto items-center lg:max-w-7xl  lg:px-28">
                     <div class=" lg:grid lg:gap-x-0 lg:grid-cols-2 ">
-                        <div class="lg:pr-14 flex flex-col justify-center">
+                        <div class="lg:pr-14 flex flex-col justify-center ">
 
                             <h2 class=" pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color">
                                 <span class=" bord_transparent font-extrabold">Design &amp; </span> <br /> <span
@@ -155,7 +160,7 @@
                         </div>
 
                         <div class="pl-5 pr-5 lg:pl-0 lg:pr-0">
-                            <div class="p-6 bg-violet_nano font-poppins">
+                            <div data-aos="fade-right" class="p-6 bg-violet_nano font-poppins">
                                 <div class="mb-8">
                                     <p class="text-lg text-blanc_impur font-extrabold bord_transparent uppercase">Primary
                                     </p>
@@ -176,7 +181,7 @@
 
 
                             <div class="lg:flex">
-                                <div class="p-6 bg-black font-poppins lg:w-1/2">
+                                <div data-aos="fade-left" data-aos-delay="150" class="p-6 bg-black font-poppins lg:w-1/2">
                                     <div class="mb-8">
                                         <p class="text-sm  font-extrabold bord_transparent uppercase">Secondary </p>
                                         <p class="text-sm text-blanc_impur font-extrabold uppercase letter_spacing">Color
@@ -193,7 +198,7 @@
                                             #000000</p>
                                     </div>
                                 </div>
-                                <div class="p-6 bg-white  font-poppins lg:w-1/2">
+                                <div data-aos="fade-right" data-aos-delay="300" class="p-6 bg-white  font-poppins lg:w-1/2">
                                     <div class="mb-8">
                                         <p class="text-sm  font-extrabold bord_transparent_noir uppercase">Secondary </p>
                                         <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing">Color</p>
@@ -210,7 +215,8 @@
                                 </div>
                             </div>
                             <div class="lg:flex">
-                                <div class="p-6 bg-violet_clair font-poppins lg:w-1/2">
+                                <div data-aos="fade-left" data-aos-delay="450"
+                                    class="p-6 bg-violet_clair font-poppins lg:w-1/2">
                                     <div class="mb-8">
                                         <p class="text-sm  font-extrabold bord_transparent_noir uppercase">Secondary </p>
                                         <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing">Color</p>
@@ -225,7 +231,8 @@
                                         <p class="text-xl font-extrabold bord_transparent_noir uppercase">#000000</p>
                                     </div>
                                 </div>
-                                <div class="p-6 bg-gris_clair font-poppins lg:w-1/2">
+                                <div data-aos="fade-right" data-aos-delay="600"
+                                    class="p-6 bg-gris_clair font-poppins lg:w-1/2">
                                     <div class="mb-8">
                                         <p class="text-sm  font-extrabold bord_transparent uppercase">Secondary </p>
                                         <p class="text-sm text-blanc_impur font-extrabold uppercase letter_spacing">Color
@@ -273,8 +280,7 @@
                     <div class=" lg:grid lg:gap-x-0 lg:grid-cols-2 ">
                         <div class="lg:pr-14 flex flex-col justify-center">
                             <h2 class=" pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color ">
-                                <span class=" bord_transparent font-extrabold">tools </span> <br /> <span
-                                    class="font-bold">
+                                <span class=" bord_transparent font-extrabold">tools </span> <br /> <span class="font-bold">
                                     used </span>
                             </h2>
                             <p class="pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">Chocolate cake liquorice
@@ -294,13 +300,16 @@
 
                                     <div class="bloc_hover p-6">
 
-                                        <p class=" text-sm text-blanc_impur font-bold  ">Figma was used to make the layout of the website</p>
+                                        <p class=" text-sm text-blanc_impur font-bold  ">Figma was used to make the layout
+                                            of the website</p>
 
                                     </div>
                                     <div class="flex justify-center items-center flex-col space-y-4 ">
 
                                         <img class="w-14" src="@/assets/img/figma_square.svg">
-                                        <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">Figma</p>
+                                        <p
+                                            class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">
+                                            Figma</p>
 
                                     </div>
 
@@ -310,13 +319,16 @@
 
                                     <div class="bloc_hover p-6">
 
-                                        <p class=" text-sm text-blanc_impur font-bold  ">HTML was used the language used to hierarchize the elements of the website</p>
+                                        <p class=" text-sm text-blanc_impur font-bold  ">HTML was used the language used to
+                                            hierarchize the elements of the website</p>
 
                                     </div>
                                     <div class="flex justify-center items-center flex-col space-y-4">
 
                                         <img class="w-14" src="@/assets/img/html.svg">
-                                        <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">html</p>
+                                        <p
+                                            class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">
+                                            html</p>
 
                                     </div>
 
@@ -328,13 +340,16 @@
 
                                     <div class="bloc_hover p-6">
 
-                                        <p class=" text-sm text-blanc_impur font-bold  ">CSS was used to give a unique style to the site</p>
+                                        <p class=" text-sm text-blanc_impur font-bold  ">CSS was used to give a unique style
+                                            to the site</p>
 
                                     </div>
                                     <div class="flex justify-center items-center flex-col space-y-4">
 
                                         <img class="w-14" src="@/assets/img/css3.svg">
-                                        <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">css</p>
+                                        <p
+                                            class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">
+                                            css</p>
 
                                     </div>
 
@@ -344,13 +359,16 @@
 
                                     <div class="bloc_hover p-6">
 
-                                        <p class=" text-sm text-blanc_impur font-bold  ">PHP was used to create and call functions and data</p>
+                                        <p class=" text-sm text-blanc_impur font-bold  ">PHP was used to create and call
+                                            functions and data</p>
 
                                     </div>
                                     <div class="flex justify-center items-center flex-col space-y-4">
 
                                         <img class="w-14" src="@/assets/img/php.svg">
-                                        <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">php</p>
+                                        <p
+                                            class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">
+                                            php</p>
 
                                     </div>
 
@@ -365,13 +383,16 @@
 
                                     <div class="bloc_hover p-6">
 
-                                        <p class=" text-sm text-blanc_impur font-bold  ">Wordpress was the CMS used to allow an easier management of the site to my client</p>
+                                        <p class=" text-sm text-blanc_impur font-bold  ">Wordpress was the CMS used to allow
+                                            an easier management of the site to my client</p>
 
                                     </div>
                                     <div class="flex justify-center items-center flex-col space-y-4">
 
                                         <img class="w-14" src="@/assets/img/wordpress.svg">
-                                        <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">Wordpress
+                                        <p
+                                            class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">
+                                            Wordpress
                                         </p>
 
                                     </div>
@@ -384,14 +405,16 @@
 
                                     <div class="bloc_hover p-6">
 
-                                        <p class=" text-sm text-blanc_impur font-bold  ">Illustrator was used to make the logo and various graphic elements</p>
+                                        <p class=" text-sm text-blanc_impur font-bold  ">Illustrator was used to make the
+                                            logo and various graphic elements</p>
 
                                     </div>
 
                                     <div class="flex justify-center items-center flex-col space-y-4">
 
                                         <img class="w-14" src="@/assets/img/adobe_illustrator.svg">
-                                        <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">
+                                        <p
+                                            class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">
                                             Illustrator</p>
 
                                     </div>
@@ -408,43 +431,23 @@
             </section>
 
 
-            <section class="mt-20">
-                    <div class="max-w-max m-auto">
-                            <img src="@/assets/img/naknowledge_mobile.png">
-                    </div>
+            <section class="mt-20 pb-20">
+                <div class="max-w-max m-auto ">
+                    <img class="" src="@/assets/img/naknowledge_mobile.png">
+                </div>
             </section>
 
 
-            
-        </div>
-
-
-
-
-<section class="my-40">
-    <div class="flex justify-center items-center space-x-20 lg:space-x-44 uppercase">
-        <RouterLink to="/works" class="light_anim4">Works</RouterLink>
-        <RouterLink to="/about" class="light_anim4 ">about</RouterLink>
     </div>
-</section>
 
-
-
-
-
-
-       
-    </div>
-</template>
+</div></template>
 
 <script>
 
 </script>
 
-<style>
-/* @media (min-width: 768px) {
+<style>/* @media (min-width: 768px) {
     .md\:pl-0 {
         padding-left: 0 !important;
     }
-} */
-</style>
+} */</style>

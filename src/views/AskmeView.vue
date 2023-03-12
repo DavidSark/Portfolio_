@@ -25,7 +25,12 @@
 
             </main>
 
-
+            <section class="my-40 sticky top-0 bg-[#090909] p-10 z-10">
+                <div class="flex justify-center items-center space-x-20 lg:space-x-44 uppercase">
+                    <RouterLink to="/works" class="light_anim4">Works</RouterLink>
+                    <RouterLink to="/about" class="light_anim4 ">About</RouterLink>
+                </div>
+            </section>
 
             <section>
                     <div class="max-w-max m-auto relative">

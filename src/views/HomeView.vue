@@ -4,8 +4,8 @@
     <div class="cursor"></div>
     <div class="noise"></div>
 
-    <div id="container" > 
-    
+    <div id="container cursor-default" > 
+    <RouterLink to="/works">
       <div class="flex items-center flex-col justify-center h-screen random-color ">  
         
         <div class="flex justify-center mb-5">
@@ -29,10 +29,10 @@
       <div class="flex justify-center items-center mt-16">
         <RouterLink to="/works" class="font-poppins text-base md:text-26 uppercase text-blanc_impur light_anim ">discover</RouterLink>
       </div>
-
+     
 
   </div>
-
+</RouterLink>
     </div>
 
   </div>

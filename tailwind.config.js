@@ -22,6 +22,7 @@ module.exports = {
         velo_green_dark: '#129A8F',
         velo_green_clear: '#6AEAA3',
         velo_black: '#4C4C4C',
+        gris_foncé_menu: '#1C1B1B'
 
       },
 

@@ -224,7 +224,7 @@ body{
   -webkit-text-stroke-width: 1px;
 }
 
-.hover_effect:hover {
+a:hover .hover_effect{
   -webkit-text-fill-color: #C7C7C7;
 }
 
