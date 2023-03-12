@@ -26,6 +26,7 @@ transition: opacity 0.5s ease-out;;
 </style>
 
 <script>
+
 // export default{
 //   name: "App",
 //   mounted() {

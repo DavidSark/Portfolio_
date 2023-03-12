@@ -24,16 +24,18 @@
 
     </div>
 
-    <section class=" sticky top-0 bg-[#090909] p-10 z-10">
+    
+    <section class=" sticky top-0 bg-[#090909] p-14 z-20 mb-20 ">
       <div class="flex justify-center items-center space-x-20 lg:space-x-44 uppercase">
-        <RouterLink to="/works" class="">Works</RouterLink>
-        <RouterLink to="/about" class="">About</RouterLink>
+        <RouterLink to="/works" class="lg:text-xl 2xl:text-2xl">Works</RouterLink>
+        <RouterLink to="/about" class="lg:text-xl 2xl:text-2xl">About</RouterLink>
       </div>
     </section>
 
+
     <ul class=" flex flex-col justify-center items-center">
 
-      <li class="relative">
+      <li class="relative mb-10 lg:mb-0">
 
         <RouterLink to="/naknow" @mouseover="showImage('naknowledge')" @mouseleave="hideImage('naknowledge')"
           class=" py-5 md:py-32 lg:flex lg:justify-between font-poppins text-lg md:text-5xl lg:text-5xl 2xl:text-3rem uppercase  text-vert_clair tracking-widest letter_spacing">
@@ -44,7 +46,7 @@
 
           <transition name="fade">
             <img v-show="showNaknowledgeImage"
-              class="hidden z-10 w-30rem lg:inline-block absolute top-[-500px] right-0  ml-2 2xl:bottom-64 2xl:w-32.5rem h-auto transform translate-y-full"
+              class="hidden z-10 w-30rem lg:inline-block absolute lg:top-[-370px] 2xl:top-[-500px]  right-0  ml-2 2xl:bottom-64 2xl:w-32.5rem h-auto transform translate-y-full"
               src="@/assets/img/naknowledge.png" alt="Image" :style="naknowledgeImageStyle" />
           </transition>
         </RouterLink>
@@ -54,7 +56,7 @@
 
 
 
-      <li class="relative">
+      <li class="relative mb-10 lg:mb-0">
 
         <RouterLink to="/askme" @mouseover="showImage('askme')" @mouseleave="hideImage('askme')"
           class=" py-5 md:py-32 lg:flex lg:justify-between font-poppins text-lg md:text-5xl lg:text-5xl 2xl:text-3rem uppercase  text-vert_clair tracking-widest letter_spacing">
@@ -65,7 +67,7 @@
 
           <transition name="fade">
             <img v-show="showAskmeImage"
-              class="hidden z-10 w-30rem lg:inline-block absolute top-[-500px] right-0  ml-2 2xl:bottom-64 2xl:w-32.5rem h-auto transform translate-y-full"
+              class="hidden z-10 w-30rem lg:inline-block absolute lg:top-[-370px] 2xl:top-[-500px]  right-0  ml-2 2xl:bottom-64 2xl:w-32.5rem h-auto transform translate-y-full"
               src="@/assets/img/askme.png" alt="Image" :style="askmeImageStyle" />
           </transition>
         </RouterLink>
@@ -73,25 +75,27 @@
         <hr />
       </li>
 
+      <li class="relative mb-10 lg:mb-0">
 
-      <li class="relative">
         <RouterLink to="/velo" @mouseover="showImage('velo')" @mouseleave="hideImage('velo')"
-          class=" py-5 md:py-32 lg:flex lg:justify-between lg:items-center relative font-poppins text-lg md:text-5xl lg:text-5xl 2xl:text-3rem uppercase text-vert_clair tracking-widest letter_spacing">
-          <span class=" bord_transparent block lg:inline-block font-extrabold 
-                      hover_effect max-w-6xl lg:w-1/2"> Unicycle</span> <span
-            class="hidden lg:inline-block random-color ">|</span> <span class="lg:pt-1 random-color">School project</span>
+          class="py-5 md:py-32 lg:flex lg:justify-between  relative font-poppins text-lg md:text-5xl lg:text-5xl 2xl:text-3rem uppercase text-vert_clair tracking-widest letter_spacing">
+          <span
+            class=" name bord_transparent block lg:inline-block font-extrabold hover_effect max-w-6xl lg:w-1/2">Unicycle</span>
+          <span class="hidden lg:inline-block random-color">|</span>
+          <span class="lg:pt-1  random-color">School project</span>
 
           <transition name="fade">
             <img v-show="showVeloImage"
-              class="hidden z-10 w-30rem lg:inline-block absolute top-[-500px] right-0  ml-2 2xl:bottom-64 2xl:w-32.5rem h-auto transform translate-y-full"
+              class="hidden z-10 w-30rem lg:inline-block absolute lg:top-[-370px] 2xl:top-[-500px] right-0  ml-2 2xl:bottom-64 2xl:w-32.5rem h-auto transform translate-y-full"
               src="@/assets/img/velotaf.png" alt="Image" :style="veloImageStyle" />
           </transition>
         </RouterLink>
 
         <hr />
-      </li>
 
-      <li class="mb-20">
+    </li>
+
+      <li class="mb-56 ">
 
         <RouterLink to="/mmi" @mouseover="showImage('mmi')" @mouseleave="hideImage('mmi')"
           class="py-5 md:py-32 lg:flex lg:justify-between  relative font-poppins text-lg md:text-5xl lg:text-5xl 2xl:text-3rem uppercase text-vert_clair tracking-widest letter_spacing">
@@ -102,7 +106,7 @@
 
           <transition name="fade">
             <img v-show="showMmiImage"
-              class="hidden z-10 w-30rem lg:inline-block absolute top-[-500px] right-0  ml-2 2xl:bottom-64 2xl:w-32.5rem h-auto transform translate-y-full"
+              class="hidden z-10 w-30rem lg:inline-block absolute lg:top-[-370px] 2xl:top-[-500px] right-0  ml-2 2xl:bottom-64 2xl:w-32.5rem h-auto transform translate-y-full"
               src="@/assets/img/mmi.png" alt="Image" :style="mmiImageStyle" />
           </transition>
         </RouterLink>
@@ -112,6 +116,8 @@
       </li>
 
     </ul>
+
+
 
   </div>
 </template>
