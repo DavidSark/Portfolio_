@@ -7,7 +7,7 @@
 
       <main class="flex items-center flex-col justify-center h-screen random-color ">
 
-        <div class="ligne0  border-default border-blanc_impur "></div>
+        <div class="ligne0 border-default border-blanc_impur "></div>
 
         <div class="flex justify-center items-center ">
           <p class=" text-blanc_impur font-mitr my-3 md:my-8 uppercase text-4xl md:text-9xl titre_anim letter_spacing ">
@@ -24,119 +24,94 @@
 
     </div>
 
+    <section class=" sticky top-0 bg-[#090909] p-10 z-10">
+      <div class="flex justify-center items-center space-x-20 lg:space-x-44 uppercase">
+        <RouterLink to="/works" class="">Works</RouterLink>
+        <RouterLink to="/about" class="">About</RouterLink>
+      </div>
+    </section>
 
     <ul class=" flex flex-col justify-center items-center">
-      <li class="">
 
-        <RouterLink to="/naknow"
-          class="lg:flex lg:justify-between  relative font-poppins text-lg md:text-5xl lg:text-5xl 2xl:text-3rem uppercase text-vert_clair tracking-widest letter_spacing">
-          <span @mouseover="showImage('naknowledge')" @mouseleave="hideImage('naknowledge')"
-            class=" name bord_transparent block lg:inline-block font-extrabold hover_effect max-w-6xl lg:w-1/2">Naknowledge</span>
+      <li class="relative">
+
+        <RouterLink to="/naknow" @mouseover="showImage('naknowledge')" @mouseleave="hideImage('naknowledge')"
+          class=" py-5 md:py-32 lg:flex lg:justify-between font-poppins text-lg md:text-5xl lg:text-5xl 2xl:text-3rem uppercase  text-vert_clair tracking-widest letter_spacing">
+          <span
+            class=" name bord_transparent block lg:inline-block font-extrabold hover_effect max-w-6xl lg:w-1/2">naknowledge</span>
           <span class="hidden lg:inline-block random-color">|</span>
-          <span class="lg:pt-1  random-color">School project</span>
+          <span class="lg:pt-1 random-color z-0">School project</span>
 
           <transition name="fade">
             <img v-show="showNaknowledgeImage"
-              class="hidden  w-30rem lg:inline-block absolute bottom-52 right-0 ml-2 2xl:bottom-64 2xl:w-32.5rem h-auto transform translate-y-full"
+              class="hidden z-10 w-30rem lg:inline-block absolute top-[-500px] right-0  ml-2 2xl:bottom-64 2xl:w-32.5rem h-auto transform translate-y-full"
               src="@/assets/img/naknowledge.png" alt="Image" :style="naknowledgeImageStyle" />
           </transition>
         </RouterLink>
 
-        <hr class="my-10 lg:my-32 test" />
+        <hr />
       </li>
 
 
 
-      <li class="">
+      <li class="relative">
 
-        <RouterLink to="/askme"
-          class="lg:flex lg:justify-between  relative font-poppins text-lg md:text-5xl lg:text-5xl 2xl:text-3rem uppercase text-vert_clair tracking-widest letter_spacing">
-          <span @mouseover="showImage('askme')" @mouseleave="hideImage('askme')"
+        <RouterLink to="/askme" @mouseover="showImage('askme')" @mouseleave="hideImage('askme')"
+          class=" py-5 md:py-32 lg:flex lg:justify-between font-poppins text-lg md:text-5xl lg:text-5xl 2xl:text-3rem uppercase  text-vert_clair tracking-widest letter_spacing">
+          <span
             class=" name bord_transparent block lg:inline-block font-extrabold hover_effect max-w-6xl lg:w-1/2">Askme</span>
-          <span class="hidden lg:inline-block random-color">|</span>
-          <span class="lg:pt-1  random-color">School project</span>
+          <span class="hidden  lg:inline-block random-color">|</span>
+          <span class="lg:pt-1 random-color z-0">School project</span>
 
           <transition name="fade">
             <img v-show="showAskmeImage"
-              class="hidden  w-30rem lg:inline-block absolute bottom-52 right-0 ml-2 2xl:bottom-64 2xl:w-32.5rem h-auto transform translate-y-full"
+              class="hidden z-10 w-30rem lg:inline-block absolute top-[-500px] right-0  ml-2 2xl:bottom-64 2xl:w-32.5rem h-auto transform translate-y-full"
               src="@/assets/img/askme.png" alt="Image" :style="askmeImageStyle" />
           </transition>
         </RouterLink>
 
-        <hr class="my-10 lg:my-32 test" />
+        <hr />
       </li>
 
 
-      <li class="">
-        <RouterLink to="/velo"
-          class="lg:flex lg:justify-between lg:items-center relative font-poppins text-lg md:text-5xl lg:text-5xl 2xl:text-3rem uppercase text-vert_clair tracking-widest letter_spacing">
-          <span @mouseover="showImage('velo')" @mouseleave="hideImage('velo')" class=" bord_transparent block lg:inline-block font-extrabold 
-                    hover_effect max-w-6xl lg:w-1/2"> Unicycle</span> <span
+      <li class="relative">
+        <RouterLink to="/velo" @mouseover="showImage('velo')" @mouseleave="hideImage('velo')"
+          class=" py-5 md:py-32 lg:flex lg:justify-between lg:items-center relative font-poppins text-lg md:text-5xl lg:text-5xl 2xl:text-3rem uppercase text-vert_clair tracking-widest letter_spacing">
+          <span class=" bord_transparent block lg:inline-block font-extrabold 
+                      hover_effect max-w-6xl lg:w-1/2"> Unicycle</span> <span
             class="hidden lg:inline-block random-color ">|</span> <span class="lg:pt-1 random-color">School project</span>
 
           <transition name="fade">
             <img v-show="showVeloImage"
-              class="hidden w-30rem lg:inline-block absolute bottom-52 right-0 ml-2 2xl:bottom-64 2xl:w-32.5rem h-auto transform translate-y-full"
+              class="hidden z-10 w-30rem lg:inline-block absolute top-[-500px] right-0  ml-2 2xl:bottom-64 2xl:w-32.5rem h-auto transform translate-y-full"
               src="@/assets/img/velotaf.png" alt="Image" :style="veloImageStyle" />
           </transition>
         </RouterLink>
 
-        <hr class="my-10 lg:my-32 test" />
+        <hr />
       </li>
 
-      <li class="">
+      <li class="mb-20">
 
-        <RouterLink to="/mmi"
-          class="lg:flex lg:justify-between  relative font-poppins text-lg md:text-5xl lg:text-5xl 2xl:text-3rem uppercase text-vert_clair tracking-widest letter_spacing">
-          <span @mouseover="showImage('mmi')" @mouseleave="hideImage('mmi')"
+        <RouterLink to="/mmi" @mouseover="showImage('mmi')" @mouseleave="hideImage('mmi')"
+          class="py-5 md:py-32 lg:flex lg:justify-between  relative font-poppins text-lg md:text-5xl lg:text-5xl 2xl:text-3rem uppercase text-vert_clair tracking-widest letter_spacing">
+          <span
             class=" name bord_transparent block lg:inline-block font-extrabold hover_effect max-w-6xl lg:w-1/2">MMI</span>
           <span class="hidden lg:inline-block random-color">|</span>
           <span class="lg:pt-1  random-color">School project</span>
 
           <transition name="fade">
             <img v-show="showMmiImage"
-              class="hidden  w-30rem lg:inline-block absolute bottom-52 right-0 ml-2 2xl:bottom-64 2xl:w-32.5rem h-auto transform translate-y-full"
-              src="@/assets/img/naknowledge.png" alt="Image" :style="mmiImageStyle" />
+              class="hidden z-10 w-30rem lg:inline-block absolute top-[-500px] right-0  ml-2 2xl:bottom-64 2xl:w-32.5rem h-auto transform translate-y-full"
+              src="@/assets/img/mmi.png" alt="Image" :style="mmiImageStyle" />
           </transition>
         </RouterLink>
 
-        <hr class="my-10 lg:my-32 test" />
+        <hr />
+
       </li>
-
-      <li class="">
-        <RouterLink to="/works"
-          class="lg:flex lg:justify-between relative font-poppins text-lg md:text-5xl lg:text-5xl 2xl:text-3rem uppercase text-vert_clair tracking-widest letter_spacing">
-          <span @mouseover="showImage('ghostie')" @mouseleave="hideImage('ghostie')" class=" bord_transparent block lg:inline-block font-extrabold 
-                    hover_effect max-w-6xl lg:w-1/2">Ghostie</span> <span
-            class="hidden lg:inline-block random-color ">|</span> <span class="lg:pt-1 random-color">School project</span>
-
-          <transition name="fade">
-            <img v-show="showGhostieImage"
-              class="hidden w-30rem lg:inline-block absolute bottom-52 right-0 ml-2 2xl:bottom-64 2xl:w-32.5rem h-auto transform translate-y-full"
-              src="@/assets/img/ghostie.png" alt="Image" :style="ghostieImageStyle" />
-          </transition>
-        </RouterLink>
-
-        <hr class="my-10 lg:my-32 test" />
-      </li>
-
-
-
-
 
     </ul>
-
-
-
-
-
-    <section class="my-40">
-      <div class="flex justify-center items-center space-x-20 lg:space-x-44 uppercase">
-        <RouterLink to="/works" class="light_anim4">Works</RouterLink>
-        <RouterLink to="/about" class="light_anim4 ">About</RouterLink>
-      </div>
-    </section>
-
 
   </div>
 </template>
