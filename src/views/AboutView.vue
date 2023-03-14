@@ -123,15 +123,3 @@
 
     </div>
 </template>
-
-<script>
-
-</script>
-
-<style>
-/* @media (min-width: 768px) {
-    .md\:pl-0 {
-        padding-left: 0 !important;
-    }
-} */
-</style>

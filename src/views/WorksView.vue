@@ -16,15 +16,11 @@
 
         <div class="ligne1 border-default border-blanc_impur "></div>
 
-        <!-- <div class="flex justify-center items-center mt-16">
-                     <p class="font-poppins text-base md:text-26 uppercase text-blanc_impur light_anim2 ">scroll down</p>
-                </div> -->
-
       </main>
 
     </div>
 
-    
+
     <section class=" sticky top-0 bg-[#090909] p-14 z-20 mb-20 ">
       <div class="flex justify-center items-center space-x-20 lg:space-x-44 uppercase">
         <RouterLink to="/works" class="lg:text-xl 2xl:text-2xl">Works</RouterLink>
@@ -47,7 +43,7 @@
           <transition name="fade">
             <img v-show="showNaknowledgeImage"
               class="hidden z-10 w-30rem lg:inline-block absolute lg:top-[-370px] 2xl:top-[-500px]  right-0  ml-2 2xl:bottom-64 2xl:w-32.5rem h-auto transform translate-y-full"
-              src="@/assets/img/naknowledge.png" alt="Image" :style="naknowledgeImageStyle" />
+              src="@/assets/img/naknowledge.png" alt="Naknowledge image" :style="naknowledgeImageStyle" />
           </transition>
         </RouterLink>
 
@@ -68,7 +64,7 @@
           <transition name="fade">
             <img v-show="showAskmeImage"
               class="hidden z-10 w-30rem lg:inline-block absolute lg:top-[-370px] 2xl:top-[-500px]  right-0  ml-2 2xl:bottom-64 2xl:w-32.5rem h-auto transform translate-y-full"
-              src="@/assets/img/askme.png" alt="Image" :style="askmeImageStyle" />
+              src="@/assets/img/askme.png" alt="Askme Image" :style="askmeImageStyle" />
           </transition>
         </RouterLink>
 
@@ -87,13 +83,13 @@
           <transition name="fade">
             <img v-show="showVeloImage"
               class="hidden z-10 w-30rem lg:inline-block absolute lg:top-[-370px] 2xl:top-[-500px] right-0  ml-2 2xl:bottom-64 2xl:w-32.5rem h-auto transform translate-y-full"
-              src="@/assets/img/velotaf.png" alt="Image" :style="veloImageStyle" />
+              src="@/assets/img/velotaf.png" alt="Unicycle image" :style="veloImageStyle" />
           </transition>
         </RouterLink>
 
         <hr />
 
-    </li>
+      </li>
 
       <li class="mb-56 ">
 
@@ -107,7 +103,7 @@
           <transition name="fade">
             <img v-show="showMmiImage"
               class="hidden z-10 w-30rem lg:inline-block absolute lg:top-[-370px] 2xl:top-[-500px] right-0  ml-2 2xl:bottom-64 2xl:w-32.5rem h-auto transform translate-y-full"
-              src="@/assets/img/mmi.png" alt="Image" :style="mmiImageStyle" />
+              src="@/assets/img/mmi.png" alt="MMI Image" :style="mmiImageStyle" />
           </transition>
         </RouterLink>
 

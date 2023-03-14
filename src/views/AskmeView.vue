@@ -35,8 +35,8 @@
 
             <section>
                     <div class="max-w-max m-auto relative">
-                            <img src="@/assets/img/home_askme.png">
-                            <a href="https://askme.melinaweb.fr/" target="_blank" class=" absolute inset-x-0 flex flex-col bottom-0  mb-10  sm:mb-16  md:mb-20  items-center justify-end font-poppins text-base md:text-26 uppercase text-noir_impur letter_spacing light_anim3 ">Visit the site</a>
+                            <img src="@/assets/img/home_askme.png" alt="image of the website" >
+                            <a href="https://askme.melinaweb.fr/" target="_blank" class=" absolute inset-x-0 flex flex-col bottom-0  mb-10  sm:mb-16  md:mb-20  items-center justify-end font-poppins text-base md:text-26 uppercase text-noir_impur letter_spacing light_anim3 ">Visit the website</a>
                     </div>
             </section>
 
@@ -67,11 +67,11 @@
                         <div class="">
                             <div class="px-5 lg:px-0">
                                 <div class="  ">
-                                    <img src="@/assets/img/askme.png">
+                                    <img src="@/assets/img/askme.png" alt="askme logo">
                                 </div>
                                 <div class=" flex">
-                                    <img class="w-1/2 h-auto" src="@/assets/img/askme_old.png">
-                                    <img class="w-1/2 h-auto" src="@/assets/img/askme_new.png">
+                                    <img class="w-1/2 h-auto" src="@/assets/img/askme_old.png" alt="askme old logo">
+                                    <img class="w-1/2 h-auto" src="@/assets/img/askme_new.png" alt="aksme new logo">
                                 </div>
                             </div>
                         </div>
@@ -79,11 +79,6 @@
                 </div>
 
             </section>
-
-
-
-
-
 
 
             <section class="mt-20">
@@ -252,29 +247,9 @@
                         </div>
                     </div>
                 </div>
-
             </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <section class="mt-20">
+            <section class="mt-20 pb-20">
 
                 <div class="max-w-xl mx-auto items-center lg:max-w-7xl  lg:px-28">
                     <div class=" lg:grid lg:gap-x-0 lg:grid-cols-2 ">
@@ -306,7 +281,7 @@
                                     </div>
                                     <div class="flex justify-center items-center flex-col space-y-4 ">
 
-                                        <img class="w-14" src="@/assets/img/figma_square.svg">
+                                        <img class="w-14" src="@/assets/img/figma_square.svg" alt="figma logo">
                                         <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">Figma</p>
 
                                     </div>
@@ -322,7 +297,7 @@
                                     </div>
                                     <div class="flex justify-center items-center flex-col space-y-4">
 
-                                        <img class="w-14" src="@/assets/img/html.svg">
+                                        <img class="w-14" src="@/assets/img/html.svg" alt="html logo">
                                         <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">html</p>
 
                                     </div>
@@ -340,52 +315,19 @@
                                     </div>
                                     <div class="flex justify-center items-center flex-col space-y-4">
 
-                                        <img class="w-14" src="@/assets/img/css3.svg">
+                                        <img class="w-14" src="@/assets/img/css3.svg" alt="css logo">
                                         <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">css</p>
 
                                     </div>
 
                                 </div>
                                
-
-
                             </div>
-                         
-
                         </div>
                     </div>
                 </div>
 
-            </section>
-
-
-           
-
-
-            
-        </div>
-
-
-
-
-
-
-
-
-
-
-       
+            </section>    
+        </div>   
     </div>
 </template>
-
-<script>
-
-</script>
-
-<style>
-/* @media (min-width: 768px) {
-    .md\:pl-0 {
-        padding-left: 0 !important;
-    }
-} */
-</style>

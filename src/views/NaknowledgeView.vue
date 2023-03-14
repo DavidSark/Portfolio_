@@ -35,13 +35,9 @@
 
             <section>
                 <div class="max-w-max m-auto">
-                    <img src="@/assets/img/naknowledge_home.png">
+                    <img src="@/assets/img/naknowledge_home.png" alt="naknowledge example of the web site">
                 </div>
             </section>
-
-
-
-
 
 
             <section class="mt-20">
@@ -66,11 +62,11 @@
                         <div class="">
                             <div class="px-5 lg:px-0">
                                 <div class="  ">
-                                    <img src="@/assets/img/naknowledge_logo.png">
+                                    <img src="@/assets/img/naknowledge_logo.png" alt="naknowledge logo">
                                 </div>
                                 <div class=" flex">
-                                    <img class="w-1/2 h-auto" src="@/assets/img/old_logo.png">
-                                    <img class="w-1/2 h-auto" src="@/assets/img/new_logo.png">
+                                    <img class="w-1/2 h-auto" src="@/assets/img/old_logo.png" alt="naknowledge old logo">
+                                    <img class="w-1/2 h-auto" src="@/assets/img/new_logo.png" alt="naknowledge new logo">
                                 </div>
                             </div>
                         </div>
@@ -256,26 +252,7 @@
 
             </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <section class="mt-20">
+            <section class="mt-20 pb-20">
 
                 <div class="max-w-xl mx-auto items-center lg:max-w-7xl  lg:px-28">
                     <div class=" lg:grid lg:gap-x-0 lg:grid-cols-2 ">
@@ -307,7 +284,7 @@
                                     </div>
                                     <div class="flex justify-center items-center flex-col space-y-4 ">
 
-                                        <img class="w-14" src="@/assets/img/figma_square.svg">
+                                        <img class="w-14" src="@/assets/img/figma_square.svg" alt="figma logo">
                                         <p
                                             class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">
                                             Figma</p>
@@ -326,7 +303,7 @@
                                     </div>
                                     <div class="flex justify-center items-center flex-col space-y-4">
 
-                                        <img class="w-14" src="@/assets/img/html.svg">
+                                        <img class="w-14" src="@/assets/img/html.svg" alt="html logo">
                                         <p
                                             class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">
                                             html</p>
@@ -347,7 +324,7 @@
                                     </div>
                                     <div class="flex justify-center items-center flex-col space-y-4">
 
-                                        <img class="w-14" src="@/assets/img/css3.svg">
+                                        <img class="w-14" src="@/assets/img/css3.svg" alt="css logo">
                                         <p
                                             class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">
                                             css</p>
@@ -366,7 +343,7 @@
                                     </div>
                                     <div class="flex justify-center items-center flex-col space-y-4">
 
-                                        <img class="w-14" src="@/assets/img/php.svg">
+                                        <img class="w-14" src="@/assets/img/php.svg" alt="php logo">
                                         <p
                                             class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">
                                             php</p>
@@ -390,7 +367,7 @@
                                     </div>
                                     <div class="flex justify-center items-center flex-col space-y-4">
 
-                                        <img class="w-14" src="@/assets/img/wordpress.svg">
+                                        <img class="w-14" src="@/assets/img/wordpress.svg" alt="wordpress logo">
                                         <p
                                             class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">
                                             Wordpress
@@ -413,7 +390,7 @@
 
                                     <div class="flex justify-center items-center flex-col space-y-4">
 
-                                        <img class="w-14" src="@/assets/img/adobe_illustrator.svg">
+                                        <img class="w-14" src="@/assets/img/adobe_illustrator.svg" alt="adobe illustrator logo">
                                         <p
                                             class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">
                                             Illustrator</p>
@@ -434,21 +411,14 @@
 
             <section class="mt-20 pb-20">
                 <div class="max-w-max m-auto ">
-                    <img class="" src="@/assets/img/naknowledge_mobile.png">
+                    <img class="" src="@/assets/img/naknowledge_mobile.png" alt="naknowledge web site mobile example">
                 </div>
             </section>
 
 
     </div>
 
-</div></template>
+</div>
 
-<script>
+</template>
 
-</script>
-
-<style>/* @media (min-width: 768px) {
-    .md\:pl-0 {
-        padding-left: 0 !important;
-    }
-} */</style>

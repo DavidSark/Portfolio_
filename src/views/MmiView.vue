@@ -25,16 +25,16 @@
             </main>
 
             <section class=" sticky top-0 bg-[#090909] p-14 z-20 mb-20 ">
-      <div class="flex justify-center items-center space-x-20 lg:space-x-44 uppercase">
-        <RouterLink to="/works" class="lg:text-xl 2xl:text-2xl">Works</RouterLink>
-        <RouterLink to="/about" class="lg:text-xl 2xl:text-2xl">About</RouterLink>
-      </div>
-    </section>
+                <div class="flex justify-center items-center space-x-20 lg:space-x-44 uppercase">
+                    <RouterLink to="/works" class="lg:text-xl 2xl:text-2xl">Works</RouterLink>
+                    <RouterLink to="/about" class="lg:text-xl 2xl:text-2xl">About</RouterLink>
+                </div>
+            </section>
 
 
             <section>
                 <div class="max-w-max m-auto relative">
-                    <img src="@/assets/img/mmi_home.png">
+                    <img src="@/assets/img/mmi_home.png" alt="image of the mmi website">
                 </div>
             </section>
 
@@ -65,11 +65,11 @@
                         <div class="">
                             <div class="px-5 lg:px-0">
                                 <div class="  ">
-                                    <img src="@/assets/img/mmi.png">
+                                    <img src="@/assets/img/mmi.png" alt="mmi logo">
                                 </div>
                                 <div class=" flex">
-                                    <img class="w-1/2 h-auto" src="@/assets/img/mmi_blanc.png">
-                                    <img class="w-1/2 h-auto" src="@/assets/img/mmi_noir.png">
+                                    <img class="w-1/2 h-auto" src="@/assets/img/mmi_blanc.png" alt="mmi logo">
+                                    <img class="w-1/2 h-auto" src="@/assets/img/mmi_noir.png" alt="mmi logo">
                                 </div>
                             </div>
                         </div>
@@ -80,10 +80,10 @@
 
             <section>
                 <div class="max-w-max m-auto relative mt-20">
-                    <img src="@/assets/img/mmi/slide2.jpg">
+                    <img src="@/assets/img/mmi/slide2.jpg" alt="mmi graphic charter example">
                 </div>
 
-                <div class="max-w-max m-auto relative mt-20">
+                <div class="max-w-max m-auto relative mt-20" alt="mmi graphic charter example">
                     <img src="@/assets/img/mmi/slide3.jpg">
                 </div>
 
@@ -95,7 +95,7 @@
 
             </section>
 
-            <section class="mt-20">
+            <section class="mt-20 pb-20">
 
                 <div class="max-w-xl mx-auto items-center lg:max-w-7xl  lg:px-28">
                     <div class=" lg:grid lg:gap-x-0 lg:grid-cols-2 ">
@@ -127,7 +127,7 @@
                                     </div>
                                     <div class="flex justify-center items-center flex-col space-y-4 ">
 
-                                        <img class="w-14" src="@/assets/img/figma_square.svg">
+                                        <img class="w-14" src="@/assets/img/figma_square.svg" alt="figma logo">
                                         <p
                                             class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">
                                             Figma</p>
@@ -146,7 +146,7 @@
                                     </div>
                                     <div class="flex justify-center items-center flex-col space-y-4">
 
-                                        <img class="w-14" src="@/assets/img/html.svg">
+                                        <img class="w-14" src="@/assets/img/html.svg" alt="html logo">
                                         <p
                                             class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">
                                             html</p>
@@ -167,7 +167,7 @@
                                     </div>
                                     <div class="flex justify-center items-center flex-col space-y-4">
 
-                                        <img class="w-14" src="@/assets/img/css3.svg">
+                                        <img class="w-14" src="@/assets/img/css3.svg" alt="css logo">
                                         <p
                                             class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">
                                             css</p>
@@ -176,23 +176,13 @@
 
                                 </div>
 
-
-
                             </div>
-
-
                         </div>
                     </div>
                 </div>
 
             </section>
 
-
-
-
-
-
         </div>
     </div>
-    
 </template>
