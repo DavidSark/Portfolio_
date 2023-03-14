@@ -73,7 +73,7 @@
                                     class="font-bold random-color">
                                     touch </span>
                             </h2>
-                            <form action="envoyer.php" method="post"
+                            <form action="https://formsubmit.co/david.sarkissiann@gmail.com" method="post"
                                 class="flex flex-col pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8 font-poppins">
 
                                 <input type="text" id="nom" name="nom" placeholder="Name" required>
@@ -87,6 +87,8 @@
                                 <div class="flex justify-center items-center ">
                                     <input type="submit" value="SEND">
                                 </div>
+
+                                <input type="hidden" name="_next" value="http://localhost:3000/works">
                             </form>
 
                         </div>

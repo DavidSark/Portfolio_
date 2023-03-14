@@ -7,6 +7,7 @@ import AskmeView from '../views/AskmeView.vue'
 import VeloView from '../views/VeloView.vue'
 import MmiView from '../views/MmiView.vue'
 import AboutView from '../views/AboutView.vue'
+import PageNotFoundView from '../views/PageNotFoundView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -19,6 +20,7 @@ const router = createRouter({
     { path: '/velo', name: 'Velo', component: VeloView},
     { path: '/mmi', name: 'Mmi', component: MmiView},
     { path: '/about', name: 'About', component: AboutView},
+    { path: '/pagenotfound', alias: '/:catchAll(.*)', name: 'PageNotFound', component: PageNotFoundView},
     
 
     // ici les autre routes

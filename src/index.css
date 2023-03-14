@@ -319,6 +319,9 @@ hr{
     margin-bottom: 20px;
     font-size: 16px;
   }
+  textarea {
+    padding-bottom: 75px;
+  }
   
   input:focus, textarea:focus {
     outline: none;
@@ -359,56 +362,6 @@ hr{
 
 
 
-/* à voir si je le mets ou pas */
-  /* .light_anim5{
-   
-    letter-spacing: 10px; 
-    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
-    line-height: 0.70em;
-    text-shadow: 0 0 15px #1a1a1a;
-    opacity: 0;
-    animation: spark2 10s ease infinite;
-    animation-delay: 1.5s;
-   }
-
-   
-  @keyframes spark2 {
-    0%,5%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
-      opacity: 1;
-      color: #1a1a1a;
-      text-shadow: none;
-      
-    }
-    5.1%,18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
-      color: #1a1a1a;
-      opacity: 1;
-      text-shadow: 0 0 5px #1a1a1a,
-       0 0 10px #1a1a1a,
-       0 0 20px #1a1a1a,
-       0 0 40px #1a1a1a,
-       0 0 80px #1a1a1a;
-     
-    }
-  } */
 
 
 
-/* modification du curseur pour les formats pc */
-/* @media screen and (min-width:1024px){
-  .cursor{
-      width: 8px;
-      height: 8px;
-      border: 1px solid white;
-      border-radius: 50%;
-      position: absolute;
-      z-index: -99;
-      pointer-events: none;
-      animation: spark .75s infinite alternate; 
-  }
-  .expand{
-      animation: clique .2s;
-      border: 1px solid white;
-      border-radius: 50%;
-  }    
-}
- */

@@ -33,7 +33,7 @@
 
 
 
-            <section data-aos="fade-right">
+            <section>
                 <div class="max-w-max m-auto">
                     <img src="@/assets/img/naknowledge_home.png">
                 </div>
@@ -161,7 +161,7 @@
                         </div>
 
                         <div class="pl-5 pr-5 lg:pl-0 lg:pr-0">
-                            <div data-aos="fade-right" class="p-6 bg-violet_nano font-poppins">
+                            <div class="p-6 bg-violet_nano font-poppins">
                                 <div class="mb-8">
                                     <p class="text-lg text-blanc_impur font-extrabold bord_transparent uppercase">Primary
                                     </p>
@@ -182,7 +182,7 @@
 
 
                             <div class="lg:flex">
-                                <div data-aos="fade-left" data-aos-delay="150" class="p-6 bg-black font-poppins lg:w-1/2">
+                                <div  class="p-6 bg-black font-poppins lg:w-1/2">
                                     <div class="mb-8">
                                         <p class="text-sm  font-extrabold bord_transparent uppercase">Secondary </p>
                                         <p class="text-sm text-blanc_impur font-extrabold uppercase letter_spacing">Color
@@ -199,7 +199,7 @@
                                             #000000</p>
                                     </div>
                                 </div>
-                                <div data-aos="fade-right" data-aos-delay="300" class="p-6 bg-white  font-poppins lg:w-1/2">
+                                <div class="p-6 bg-white  font-poppins lg:w-1/2">
                                     <div class="mb-8">
                                         <p class="text-sm  font-extrabold bord_transparent_noir uppercase">Secondary </p>
                                         <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing">Color</p>
@@ -216,7 +216,7 @@
                                 </div>
                             </div>
                             <div class="lg:flex">
-                                <div data-aos="fade-left" data-aos-delay="450"
+                                <div 
                                     class="p-6 bg-violet_clair font-poppins lg:w-1/2">
                                     <div class="mb-8">
                                         <p class="text-sm  font-extrabold bord_transparent_noir uppercase">Secondary </p>
@@ -232,7 +232,7 @@
                                         <p class="text-xl font-extrabold bord_transparent_noir uppercase">#000000</p>
                                     </div>
                                 </div>
-                                <div data-aos="fade-right" data-aos-delay="600"
+                                <div 
                                     class="p-6 bg-gris_clair font-poppins lg:w-1/2">
                                     <div class="mb-8">
                                         <p class="text-sm  font-extrabold bord_transparent uppercase">Secondary </p>

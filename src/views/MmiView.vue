@@ -78,10 +78,6 @@
 
             </section>
 
-
-
-
-
             <section>
                 <div class="max-w-max m-auto relative mt-20">
                     <img src="@/assets/img/mmi/slide2.jpg">
@@ -98,25 +94,6 @@
 
 
             </section>
-
-
-
-            <!-- 
-                <div>
-                    <carousel :slides="slides" controls indicators></carousel>
-                </div>
-             -->
-
-
-
-
-
-
-
-
-
-
-
 
             <section class="mt-20">
 
@@ -216,44 +193,6 @@
 
 
         </div>
-
-
-
-
-   
-
-
-
-
-
     </div>
+    
 </template>
-
-<script>
-import Carousel from "../components/carousel/Carousel.vue";
-
-export default {
-    name: "App",
-    components: { Carousel },
-    data: () => ({
-        slides: [
-            "/src/assets/img/mmi/slide1.jpg",
-            "/src/assets/img/mmi/slide2.jpg",
-            "/src/assets/img/mmi/slide3.jpg",
-            "/src/assets/img/mmi/slide4.jpg",
-            "/src/assets/img/mmi/slide5.jpg",
-            "/src/assets/img/mmi/slide6.jpg",
-            "/src/assets/img/mmi/slide7.jpg",
-
-        ],
-    }),
-};
-</script>
-
-<style>
-/* @media (min-width: 768px) {
-    .md\:pl-0 {
-        padding-left: 0 !important;
-    }
-} */
-</style>
