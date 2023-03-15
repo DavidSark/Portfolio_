@@ -138,8 +138,6 @@ export default {
     showImage(image) {
       this[`show${image.charAt(0).toUpperCase() + image.slice(1)}Image`] = true;
 
-
-
       // Set image style with transition
       this[`${image}ImageStyle`] = {
         top: `${y}px`,
