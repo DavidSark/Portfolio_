@@ -52,7 +52,7 @@
                         </h2>
                         <p class="pl-5 pr-5 lg:pl-0 text-base 2xl:text-xl text-blanc_impur leading-7 mb-8">Naknowledge is a
                             school
-                            project that was done as a group. The goal was to create a site where people would come together
+                            project that was done as a group. The goal was to create a website where people would come together
                             as a community around topics they love.
 
                             The technical constraint was to create a theme via the CMS Wordpress so that the design and logo

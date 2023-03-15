@@ -18,29 +18,29 @@
                 <div class="ligne1 border-default border-blanc_impur "></div>
 
                 <div class="flex justify-center items-center mt-16">
-                    <a   href="https://askme.melinaweb.fr/" target="_blank" 
+                    <a href="https://askme.melinaweb.fr/" target="_blank"
                         class="font-poppins text-base md:text-26 uppercase text-blanc_impur light_anim2 ">School project
-                </a>
+                    </a>
                 </div>
 
             </main>
 
             <section class=" sticky top-0 bg-[#090909] p-14 z-20 mb-20 ">
-      <div class="flex justify-center items-center space-x-20 lg:space-x-44 uppercase">
-        <RouterLink to="/works" class="lg:text-xl 2xl:text-2xl">Works</RouterLink>
-        <RouterLink to="/about" class="lg:text-xl 2xl:text-2xl">About</RouterLink>
-      </div>
-    </section>
-
-
-            <section>
-                    <div class="max-w-max m-auto relative">
-                            <img src="@/assets/img/home_askme.png" alt="image of the website" >
-                            <a href="https://askme.melinaweb.fr/" target="_blank" class=" absolute inset-x-0 flex flex-col bottom-0  mb-10  sm:mb-16  md:mb-20  items-center justify-end font-poppins text-base md:text-26 uppercase text-noir_impur letter_spacing light_anim3 ">Visit the website</a>
-                    </div>
+                <div class="flex justify-center items-center space-x-20 lg:space-x-44 uppercase">
+                    <RouterLink to="/works" class="lg:text-xl 2xl:text-2xl">Works</RouterLink>
+                    <RouterLink to="/about" class="lg:text-xl 2xl:text-2xl">About</RouterLink>
+                </div>
             </section>
 
 
+            <section>
+                <div class="max-w-max m-auto relative">
+                    <img src="@/assets/img/home_askme.png" alt="image of the website">
+                    <a href="https://askme.melinaweb.fr/" target="_blank"
+                        class=" absolute inset-x-0 flex flex-col bottom-0  mb-10  sm:mb-16  md:mb-20  items-center justify-end font-poppins text-base md:text-26 uppercase text-noir_impur letter_spacing light_anim3 ">Visit
+                        the website</a>
+                </div>
+            </section>
 
 
 
@@ -48,19 +48,41 @@
             <section class="mt-20">
 
                 <div class="max-w-xl mx-auto items-center lg:max-w-7xl  lg:px-28">
+
+                    <div class="lg:pr-14 flex flex-col justify-center ">
+
+                        <h2 class=" pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color">
+                            <span class=" bord_transparent font-extrabold">The</span> <br /> <span class="font-bold">
+                                Project </span>
+                        </h2>
+                        <p class="pl-5 pr-5 lg:pl-0 text-base 2xl:text-xl text-blanc_impur leading-7 mb-8">Askme is a
+                            school
+                            project that was done by a group of three students. The goal was to create a website to help
+                            students in their studies.<br /><br />
+
+                            As part of this project, we developed the Askme promotional website, which outlines our values
+                            and future features for Askme.
+                        </p>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="mt-20">
+
+                <div class="max-w-xl mx-auto items-center lg:max-w-7xl  lg:px-28">
                     <div class=" lg:grid lg:gap-x-0 lg:grid-cols-2 ">
-                        <div class="lg:pr-14 flex flex-col justify-center">
+                        <div class="lg:pr-14 flex flex-col  justify-center  ">
 
                             <h2 class=" pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color">
                                 <span class=" bord_transparent font-extrabold">Design &amp; </span> <br /> <span
                                     class="font-bold"> logo </span>
                             </h2>
-                            <p class="pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">Chocolate cake liquorice
-                                oat cake caramels danish. Icing chocolate bar donut sweet candy chocolate cake bonbon lemon
-                                drops chocolate bar. Gingerbread sugar plum sweet roll pudding cookie tiramisu cake wafer.
-                                Cotton candy gummies cake croissant jelly beans sweet roll candy canes ice cream. Wafer
-                                macaroon cookie chocolate chocolate bar donut jujubes candy. Cake cake cupcake cheesecake
-                                jelly-o lollipop jelly-o.</p>
+                            <p class="pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">For the logo, we chose to
+                                use the first letter of the project name to make a typographic logo.
+                                The first logo was a B because the project was originally called Blumee, but after further
+                                reflection we decided to change the name and thus the logo.</p>
 
                         </div>
 
@@ -90,12 +112,21 @@
                                 <span class=" bord_transparent font-extrabold">Font &amp; </span> <br /> <span
                                     class="font-bold"> Typography </span>
                             </h2>
-                            <p class="pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">Chocolate cake liquorice
-                                oat cake caramels danish. Icing chocolate bar donut sweet candy chocolate cake bonbon lemon
-                                drops chocolate bar. Gingerbread sugar plum sweet roll pudding cookie tiramisu cake wafer.
-                                Cotton candy gummies cake croissant jelly beans sweet roll candy canes ice cream. Wafer
-                                macaroon cookie chocolate chocolate bar donut jujubes candy. Cake cake cupcake cheesecake
-                                jelly-o lollipop jelly-o.</p>
+                            <p class="pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">First of all, Quicksand
+                                is a modern, readable and user-friendly font. It is often used for headlines and titles
+                                because of its large size and eye-catching appearance.<br /><br />
+
+                                On the other hand, Raleway is an elegant and professional sans-serif font. It is easy to
+                                read, even at small sizes, and its geometric structure makes it ideal for use on a website.
+                                <br /><br />
+
+                                Together, Quicksand and Raleway offer an effective combination for a website. The
+                                combination of the two fonts makes it possible to highlight headings and titles while
+                                maintaining high readability for running text. In addition, the difference in style between
+                                the two fonts creates a visual contrast that helps structure the content of the
+                                site.<br /><br />
+
+                            </p>
                         </div>
 
                         <div class="pl-5 pr-5 lg:pl-0 lg:pr-0">
@@ -148,12 +179,21 @@
                                 <span class=" bord_transparent font-extrabold">Color </span> <br /> <span class="font-bold">
                                     palette </span>
                             </h2>
-                            <p class="pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">Chocolate cake liquorice
-                                oat cake caramels danish. Icing chocolate bar donut sweet candy chocolate cake bonbon lemon
-                                drops chocolate bar. Gingerbread sugar plum sweet roll pudding cookie tiramisu cake wafer.
-                                Cotton candy gummies cake croissant jelly beans sweet roll candy canes ice cream. Wafer
-                                macaroon cookie chocolate chocolate bar donut jujubes candy. Cake cake cupcake cheesecake
-                                jelly-o lollipop jelly-o.</p>
+                            <p class="pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">
+                                First, bright blue is a vibrant, eye-catching color that can convey a sense of
+                                confidence and professionalism. It is often used to draw attention to important elements and
+                                create a dynamic atmosphere.
+                                Soft clear blue is a calming color that can give a sense of tranquility
+                                and calm.
+                                <br/> <br/>
+
+                                Black and white are classic and timeless colors that can give an impression of
+                                professionalism. They are often used for running text, as it is easy to read and creates a
+                                strong visual contrast with the background.  <br/> <br/>
+
+                                Overall, the combination of these colors creates a harmonious and effective visual balance
+                                for your website.
+                            </p>
                         </div>
 
                         <div class="pl-5 pr-5 lg:pl-0 lg:pr-0">
@@ -255,16 +295,14 @@
                     <div class=" lg:grid lg:gap-x-0 lg:grid-cols-2 ">
                         <div class="lg:pr-14 flex flex-col justify-center">
                             <h2 class=" pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color ">
-                                <span class=" bord_transparent font-extrabold">tools </span> <br /> <span
-                                    class="font-bold">
+                                <span class=" bord_transparent font-extrabold">tools </span> <br /> <span class="font-bold">
                                     used </span>
                             </h2>
-                            <p class="pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">Chocolate cake liquorice
-                                oat cake caramels danish. Icing chocolate bar donut sweet candy chocolate cake bonbon lemon
-                                drops chocolate bar. Gingerbread sugar plum sweet roll pudding cookie tiramisu cake wafer.
-                                Cotton candy gummies cake croissant jelly beans sweet roll candy canes ice cream. Wafer
-                                macaroon cookie chocolate chocolate bar donut jujubes candy. Cake cake cupcake cheesecake
-                                jelly-o lollipop jelly-o.</p>
+                            <p class="pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">To create the landing
+                                page, some technical constraints were imposed. It was imperative to use Figma software to
+                                model and set up a model of the site but it was also necessary to use the HTML markup
+                                language for the hierarchization of elements but also CSS language to style the page in
+                                accordance with the model.</p>
                         </div>
 
                         <div class="pl-5 pr-5 lg:pl-0 lg:pr-0 flex flex-col justify-end">
@@ -276,13 +314,16 @@
 
                                     <div class="bloc_hover p-6">
 
-                                        <p class=" text-sm text-blanc_impur font-bold  ">Figma was used to make the layout of the website</p>
+                                        <p class=" text-sm text-blanc_impur font-bold  ">Figma was used to make the layout
+                                            of the website</p>
 
                                     </div>
                                     <div class="flex justify-center items-center flex-col space-y-4 ">
 
                                         <img class="w-14" src="@/assets/img/figma_square.svg" alt="figma logo">
-                                        <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">Figma</p>
+                                        <p
+                                            class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">
+                                            Figma</p>
 
                                     </div>
 
@@ -292,13 +333,16 @@
 
                                     <div class="bloc_hover p-6">
 
-                                        <p class=" text-sm text-blanc_impur font-bold  ">HTML was used the language used to hierarchize the elements of the website</p>
+                                        <p class=" text-sm text-blanc_impur font-bold  ">HTML was used the language used to
+                                            hierarchize the elements of the website</p>
 
                                     </div>
                                     <div class="flex justify-center items-center flex-col space-y-4">
 
                                         <img class="w-14" src="@/assets/img/html.svg" alt="html logo">
-                                        <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">html</p>
+                                        <p
+                                            class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">
+                                            html</p>
 
                                     </div>
 
@@ -310,24 +354,26 @@
 
                                     <div class="bloc_hover p-6">
 
-                                        <p class=" text-sm text-blanc_impur font-bold  ">CSS was used to give a unique style to the site</p>
+                                        <p class=" text-sm text-blanc_impur font-bold  ">CSS was used to give a unique style
+                                            to the website</p>
 
                                     </div>
                                     <div class="flex justify-center items-center flex-col space-y-4">
 
                                         <img class="w-14" src="@/assets/img/css3.svg" alt="css logo">
-                                        <p class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">css</p>
+                                        <p
+                                            class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">
+                                            css</p>
 
                                     </div>
 
                                 </div>
-                               
+
                             </div>
                         </div>
-                    </div>
                 </div>
+            </div>
 
-            </section>    
-        </div>   
+        </section>
     </div>
-</template>
+</div></template>
