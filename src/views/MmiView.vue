@@ -41,6 +41,29 @@
 
 
 
+            <section class="mt-20">
+
+                <div class="max-w-xl mx-auto items-center lg:max-w-7xl  lg:px-28">
+
+                    <div class="lg:pr-14 flex flex-col justify-center ">
+
+                        <h2 class=" pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color">
+                            <span class=" bord_transparent font-extrabold">The</span> <br /> <span class="font-bold">
+                                Project </span>
+                        </h2>
+                        <p class="pl-5 pr-5 lg:pl-0 text-base 2xl:text-xl text-blanc_impur leading-7 mb-8">The MMI project
+                            was a project set up to redesign the logo as well as the international website of the MMI
+                            Montbéliard department and to propose a solution regarding the attractiveness of doing a
+                            semester or an internship abroad. <br /><br />
+
+                            It was therefore necessary to set up a communication around this theme, to review the logo and
+                            also to review the attractiveness of the site.
+                        </p>
+
+                    </div>
+                </div>
+
+            </section>
 
 
             <section class="mt-20">
@@ -53,12 +76,14 @@
                                 <span class=" bord_transparent font-extrabold">Design &amp; </span> <br /> <span
                                     class="font-bold"> logo </span>
                             </h2>
-                            <p class="pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">Chocolate cake liquorice
-                                oat cake caramels danish. Icing chocolate bar donut sweet candy chocolate cake bonbon lemon
-                                drops chocolate bar. Gingerbread sugar plum sweet roll pudding cookie tiramisu cake wafer.
-                                Cotton candy gummies cake croissant jelly beans sweet roll candy canes ice cream. Wafer
-                                macaroon cookie chocolate chocolate bar donut jujubes candy. Cake cake cupcake cheesecake
-                                jelly-o lollipop jelly-o.</p>
+                            <p class="pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">The redesign of the logo
+                                was done by highlighting the international.<br/>
+                                Indeed on the logo we find the initial of MMI but the first M is cut by the trail of an
+                                airplane which shows the travel side.
+                                The term International is also present to reinforce the idea of the possibility of doing a
+                                semester / internship abroad for students of MMI montbéliard.
+                                <br/><br/>
+                                You will find below a part of the graphic charter but also available for download.</p>
 
                         </div>
 
@@ -66,10 +91,6 @@
                             <div class="px-5 lg:px-0">
                                 <div class="  ">
                                     <img src="@/assets/img/mmi.png" alt="mmi logo">
-                                </div>
-                                <div class=" flex">
-                                    <img class="w-1/2 h-auto" src="@/assets/img/mmi_blanc.png" alt="mmi logo">
-                                    <img class="w-1/2 h-auto" src="@/assets/img/mmi_noir.png" alt="mmi logo">
                                 </div>
                             </div>
                         </div>
@@ -95,7 +116,7 @@
 
             </section>
 
-            <section class="mt-20 pb-20">
+            <section class="mt-32 pb-20">
 
                 <div class="max-w-xl mx-auto items-center lg:max-w-7xl  lg:px-28">
                     <div class=" lg:grid lg:gap-x-0 lg:grid-cols-2 ">
@@ -104,12 +125,8 @@
                                 <span class=" bord_transparent font-extrabold">tools </span> <br /> <span class="font-bold">
                                     used </span>
                             </h2>
-                            <p class="pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">Chocolate cake liquorice
-                                oat cake caramels danish. Icing chocolate bar donut sweet candy chocolate cake bonbon lemon
-                                drops chocolate bar. Gingerbread sugar plum sweet roll pudding cookie tiramisu cake wafer.
-                                Cotton candy gummies cake croissant jelly beans sweet roll candy canes ice cream. Wafer
-                                macaroon cookie chocolate chocolate bar donut jujubes candy. Cake cake cupcake cheesecake
-                                jelly-o lollipop jelly-o.</p>
+                            <p class="pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">For this project, any tool that could be effective was good to take.
+So I used Illustrator and indesign to create the logo and the graphic charter but also figma to add and retouch some elements.</p>
                         </div>
 
                         <div class="pl-5 pr-5 lg:pl-0 lg:pr-0 flex flex-col justify-end">
@@ -121,8 +138,7 @@
 
                                     <div class="bloc_hover p-6">
 
-                                        <p class=" text-sm text-blanc_impur font-bold  ">Figma was used to make the layout
-                                            of the website</p>
+                                        <p class=" text-sm text-blanc_impur font-bold  ">Figma was used to adjust some elements</p>
 
                                     </div>
                                     <div class="flex justify-center items-center flex-col space-y-4 ">
@@ -136,20 +152,22 @@
 
                                 </div>
                                 <div
-                                    class="card  relative p-6  bg-blanc_impur font-poppins lg:w-1/2 flex justify-center items-center flex-col border-b-default border-black ">
+                                    class=" relative card p-6 bg-blanc_impur font-poppins lg:w-1/2 flex justify-center items-center flex-col border-b-default  border-black">
 
                                     <div class="bloc_hover p-6">
 
-                                        <p class=" text-sm text-blanc_impur font-bold  ">HTML was used the language used to
-                                            hierarchize the elements of the website</p>
+                                        <p class=" text-sm text-blanc_impur font-bold  ">Illustrator was used to make the
+                                            logo and various graphic elements</p>
 
                                     </div>
+
                                     <div class="flex justify-center items-center flex-col space-y-4">
 
-                                        <img class="w-14" src="@/assets/img/html.svg" alt="html logo">
+                                        <img class="w-14" src="@/assets/img/adobe_illustrator.svg"
+                                            alt="adobe illustrator logo">
                                         <p
                                             class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">
-                                            html</p>
+                                            Illustrator</p>
 
                                     </div>
 
@@ -161,16 +179,15 @@
 
                                     <div class="bloc_hover p-6">
 
-                                        <p class=" text-sm text-blanc_impur font-bold  ">CSS was used to give a unique style
-                                            to the site</p>
+                                        <p class=" text-sm text-blanc_impur font-bold  ">Indesign was used to create the graphic charter</p>
 
                                     </div>
                                     <div class="flex justify-center items-center flex-col space-y-4">
 
-                                        <img class="w-14" src="@/assets/img/css3.svg" alt="css logo">
+                                        <img class="w-14" src="@/assets/img/indesign.svg" alt="css logo">
                                         <p
                                             class="text-sm text-noir_impur font-extrabold uppercase letter_spacing light_anim3">
-                                            css</p>
+                                            Indesign</p>
 
                                     </div>
 
@@ -181,8 +198,7 @@
                     </div>
                 </div>
 
-            </section>
+        </section>
 
-        </div>
     </div>
-</template>
+</div></template>
