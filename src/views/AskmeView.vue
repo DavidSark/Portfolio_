@@ -22,7 +22,12 @@
                         class="font-poppins text-base md:text-26 uppercase text-blanc_impur light_anim2 ">School project
                     </a>
                 </div>
-
+                
+                <div class="scroll-down-container">
+          <div  class="scroll-down-link">
+            <span class="arrow-down"></span>
+          </div>
+        </div>
             </main>
 
             <section class=" sticky top-0 bg-[#090909] p-14 z-20 mb-20 ">

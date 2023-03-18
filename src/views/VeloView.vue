@@ -21,7 +21,12 @@
                     <p class="font-poppins text-base md:text-26 uppercase text-blanc_impur light_anim2 ">school project
                     </p>
                 </div>
-
+                
+                <div class="scroll-down-container">
+          <div  class="scroll-down-link">
+            <span class="arrow-down"></span>
+          </div>
+        </div>
             </main>
 
 

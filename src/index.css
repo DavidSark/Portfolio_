@@ -360,11 +360,6 @@ hr{
     color: #A3A3A3;
   }
 
-
-
-
-
-
   .surligne {
     box-sizing: border-box;
     border-bottom: 2px solid transparent;
@@ -374,3 +369,60 @@ hr{
   .surligne:hover {
     border-bottom-color: #A3A3A3;
   }
+
+
+  .scroll-down-container {
+    position: absolute;
+    bottom: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .scroll-down-link {
+    display: block;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    transition: transform 0.3s;
+    animation: scroll-down-link-animation 1s ease-out 1s forwards;
+    opacity: 0;
+  }
+  
+  .scroll-down-link:hover {
+    transform: translateY(5px);
+  }
+  
+  .arrow-down {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-top: -4px;
+    border-top: 8px solid #fff;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    animation: arrow-down-animation 1.5s infinite;
+  }
+  
+  @keyframes arrow-down-animation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes scroll-down-link-animation {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
