@@ -26,7 +26,7 @@
 
 
             <section class=" sticky top-0 bg-[#090909] p-14 z-20 mb-20 ">
-                <div class="flex justify-center items-center space-x-20 lg:space-x-44 uppercase">
+                <div class="flex justify-center items-center space-x-20 lg:space-x-44 uppercase font-poppins">
                     <RouterLink to="/works" class="lg:text-xl 2xl:text-2xl">Works</RouterLink>
                     <RouterLink to="/about" class="lg:text-xl 2xl:text-2xl">About</RouterLink>
                 </div>
@@ -40,17 +40,21 @@
                     <div class=" ">
                         <div class="flex flex-col justify-center">
 
-                            <h2 class=" pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color">
+                            <h2 class="font-mitr pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color">
                                 <span class=" bord_transparent font-extrabold">Who </span> <br /> <span
                                     class="font-bold random-color">
                                     am i </span>
                             </h2>
-                            <p class="pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">Chocolate cake liquorice
-                                oat cake caramels danish. Icing chocolate bar donut sweet candy chocolate cake bonbon lemon
-                                drops chocolate bar. Gingerbread sugar plum sweet roll pudding cookie tiramisu cake wafer.
-                                Cotton candy gummies cake croissant jelly beans sweet roll candy canes ice cream. Wafer
-                                macaroon cookie chocolate chocolate bar donut jujubes candy. Cake cake cupcake cheesecake
-                                jelly-o lollipop jelly-o.</p>
+                            <p class="font-poppins pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">
+                                My name is David and I love the web! <br/> 
+                                I've always scanned the technologies and technical
+                                possibilities related to the digital world in order to capture people's attention.<br/>
+                                I particularly like to be in front of a problem and to solve it always to improve my
+                                abilities and to give the best of myself.
+                                Whether it's for design or web development, I will give my heart to surpass myself and make
+                                your imagination real.
+                                Don't be shy!
+                            </p>
 
                         </div>
 
@@ -68,7 +72,7 @@
                     <div class=" lg:grid lg:gap-x-0 lg:grid-cols-2 ">
                         <div class=" flex flex-col justify-center">
 
-                            <h2 class=" pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color">
+                            <h2 class="font-mitr pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color">
                                 <span class=" bord_transparent font-extrabold">get in </span> <br /> <span
                                     class="font-bold random-color">
                                     touch </span>
@@ -89,6 +93,8 @@
                                 </div>
 
                                 <input type="hidden" name="_next" value="http://localhost:3000/works">
+                                <input type="hidden" name="_captcha" value="false">
+                                
                             </form>
 
                         </div>
@@ -109,7 +115,7 @@
                                 </div>
                                 <div
                                     class="my-5 px-14 pb-24 2xl:px-32 text-base  text-noir_impur font-bold letter_spacing ">
-                                    <p>Learning for BUT MMI - Montbéliard</p>
+                                    <p>Learning at BUT MMI - Montbéliard</p>
                                 </div>
                             </div>
                         </div>
@@ -121,5 +127,4 @@
 
         </div>
 
-    </div>
-</template>
+</div></template>

@@ -25,7 +25,7 @@
             </main>
 
             <section class=" sticky top-0 bg-[#090909] p-14 z-20 mb-20 ">
-                <div class="flex justify-center items-center space-x-20 lg:space-x-44 uppercase">
+                <div class="flex justify-center items-center space-x-20 lg:space-x-44 uppercase font-poppins">
                     <RouterLink to="/works" class="lg:text-xl 2xl:text-2xl">Works</RouterLink>
                     <RouterLink to="/about" class="lg:text-xl 2xl:text-2xl">About</RouterLink>
                 </div>
@@ -47,11 +47,11 @@
 
                     <div class="lg:pr-14 flex flex-col justify-center ">
 
-                        <h2 class=" pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color">
+                        <h2 class="font-mitr pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color">
                             <span class=" bord_transparent font-extrabold">The</span> <br /> <span class="font-bold">
                                 Project </span>
                         </h2>
-                        <p class="pl-5 pr-5 lg:pl-0 text-base 2xl:text-xl text-blanc_impur leading-7 mb-8">The MMI project
+                        <p class="font-poppins pl-5 pr-5 lg:pl-0 text-base 2xl:text-xl text-blanc_impur leading-7 mb-8">The MMI project
                             was a project set up to redesign the logo as well as the international website of the MMI
                             Montbéliard department and to propose a solution regarding the attractiveness of doing a
                             semester or an internship abroad. <br /><br />
@@ -72,11 +72,11 @@
                     <div class=" lg:grid lg:gap-x-0 lg:grid-cols-2 ">
                         <div class="lg:pr-14 flex flex-col justify-center">
 
-                            <h2 class=" pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color">
+                            <h2 class="font-mitr pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color">
                                 <span class=" bord_transparent font-extrabold">Design &amp; </span> <br /> <span
                                     class="font-bold"> logo </span>
                             </h2>
-                            <p class="pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">The redesign of the logo
+                            <p class="font-poppins pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">The redesign of the logo
                                 was done by highlighting the international.<br/>
                                 Indeed on the logo we find the initial of MMI but the first M is cut by the trail of an
                                 airplane which shows the travel side.
@@ -121,11 +121,11 @@
                 <div class="max-w-xl mx-auto items-center lg:max-w-7xl  lg:px-28">
                     <div class=" lg:grid lg:gap-x-0 lg:grid-cols-2 ">
                         <div class="lg:pr-14 flex flex-col justify-center">
-                            <h2 class=" pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color ">
+                            <h2 class="font-mitr pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color ">
                                 <span class=" bord_transparent font-extrabold">tools </span> <br /> <span class="font-bold">
                                     used </span>
                             </h2>
-                            <p class="pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">For this project, any tool that could be effective was good to take.
+                            <p class="font-poppins pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">For this project, any tool that could be effective was good to take.
 So I used Illustrator and indesign to create the logo and the graphic charter but also figma to add and retouch some elements.</p>
                         </div>
 

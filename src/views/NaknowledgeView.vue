@@ -25,7 +25,7 @@
             </main>
 
             <section class=" sticky top-0 bg-[#090909] p-14 z-20 mb-20 ">
-                <div class="flex justify-center items-center space-x-20 lg:space-x-44 uppercase">
+                <div class="flex justify-center items-center space-x-20 lg:space-x-44 uppercase font-poppins">
                     <RouterLink to="/works" class="lg:text-xl 2xl:text-2xl">Works</RouterLink>
                     <RouterLink to="/about" class="lg:text-xl 2xl:text-2xl">About</RouterLink>
                 </div>
@@ -50,7 +50,7 @@
                             <span class=" bord_transparent font-extrabold">The</span> <br /> <span class="font-bold">
                                 Project </span>
                         </h2>
-                        <p class="pl-5 pr-5 lg:pl-0 text-base 2xl:text-xl text-blanc_impur leading-7 mb-8">Naknowledge is a
+                        <p class="pl-5 pr-5 lg:pl-0 text-base 2xl:text-xl text-blanc_impur leading-7 mb-8 font-poppins">Naknowledge is a
                             school
                             project that was done as a group. The goal was to create a website where people would come together
                             as a community around topics they love.
@@ -72,11 +72,11 @@
                     <div class=" lg:grid lg:gap-x-0 lg:grid-cols-2 ">
                         <div class="lg:pr-14 flex flex-col justify-center ">
 
-                            <h2 class=" pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color">
+                            <h2 class=" pl-5 pr-5 lg:pl-0 text-4xl font-mitr font-bold mb-8 text-vert_clair uppercase random-color">
                                 <span class=" bord_transparent font-extrabold">Design &amp; </span> <br /> <span
                                     class="font-bold"> logo </span>
                             </h2>
-                            <p class="pl-5 pr-5 lg:pl-0 text-base 2xl:text-xl text-blanc_impur leading-7 mb-8">The logo was
+                            <p class="pl-5 pr-5 lg:pl-0 text-base 2xl:text-xl text-blanc_impur leading-7 mb-8 font-poppins">The logo was
                                 designed to be as close as possible to the idea of sharing and especially sharing knowledge.
                                 That's why at first we started with the idea of a hexagon bridge that acts as a knowledge
                                 sharing between people, then after reworking it a little, we kept the geometric elements to
@@ -111,11 +111,11 @@
                 <div class="max-w-xl mx-auto items-center lg:max-w-7xl  lg:px-28">
                     <div class=" lg:grid lg:gap-x-0 lg:grid-cols-2 ">
                         <div class="lg:pr-14 flex flex-col justify-center">
-                            <h2 class=" pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color ">
+                            <h2 class=" pl-5 pr-5 lg:pl-0 text-4xl font-mitr font-bold mb-8 text-vert_clair uppercase random-color ">
                                 <span class=" bord_transparent font-extrabold">Font &amp; </span> <br /> <span
                                     class="font-bold"> Typography </span>
                             </h2>
-                            <p class="pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">Reem Kufi is a modern,
+                            <p class="pl-5 pr-5 lg:pl-0 text-base font-poppins text-blanc_impur leading-7 mb-8">Reem Kufi is a modern,
                                 elegant and easy to read font. It is often used for headlines and titles because of its
                                 large size and eye-catching look.<br /><br />
 
@@ -174,11 +174,11 @@
                 <div class="max-w-xl mx-auto items-center lg:max-w-7xl  lg:px-28">
                     <div class=" lg:grid lg:gap-x-0 lg:grid-cols-2 ">
                         <div class="lg:pr-14 flex flex-col justify-center">
-                            <h2 class=" pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color ">
+                            <h2 class="font-mitr pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color ">
                                 <span class=" bord_transparent font-extrabold">Color </span> <br /> <span class="font-bold">
                                     palette </span>
                             </h2>
-                            <p class="pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8"> The combination of
+                            <p class="pl-5 pr-5 lg:pl-0 text-base font-poppins text-blanc_impur leading-7 mb-8"> The combination of
                                 colors chosen creates a harmonious and effective visual balance for the website. Bright
                                 colors draw attention to important elements, while darker, subtle colors help create strong
                                 visual contrast and maintain high readability for text.<br /><br />
@@ -293,11 +293,11 @@
                 <div class="max-w-xl mx-auto items-center lg:max-w-7xl  lg:px-28">
                     <div class=" lg:grid lg:gap-x-0 lg:grid-cols-2 ">
                         <div class="lg:pr-14 flex flex-col justify-center">
-                            <h2 class=" pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color ">
+                            <h2 class=" pl-5 pr-5 lg:pl-0 text-4xl font-mitr font-bold mb-8 text-vert_clair uppercase random-color ">
                                 <span class=" bord_transparent font-extrabold">tools </span> <br /> <span class="font-bold">
                                     used </span>
                             </h2>
-                            <p class="pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">For this project,
+                            <p class="pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8 font-poppins">For this project,
                                 different tools were used.
                                 These tools were not imposed but were chosen judiciously to answer a precise task all along
                                 the conception of the project.
@@ -305,7 +305,7 @@
                             </p>
                         </div>
 
-                        <div class="pl-5 pr-5 lg:pl-0 lg:pr-0">
+                        <div class="pl-5 pr-5 lg:pl-0 lg:pr-0 ">
 
                             <div class="lg:flex ">
 

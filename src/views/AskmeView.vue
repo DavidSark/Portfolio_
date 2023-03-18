@@ -26,7 +26,7 @@
             </main>
 
             <section class=" sticky top-0 bg-[#090909] p-14 z-20 mb-20 ">
-                <div class="flex justify-center items-center space-x-20 lg:space-x-44 uppercase">
+                <div class="flex justify-center items-center space-x-20 lg:space-x-44 uppercase font-poppins">
                     <RouterLink to="/works" class="lg:text-xl 2xl:text-2xl">Works</RouterLink>
                     <RouterLink to="/about" class="lg:text-xl 2xl:text-2xl">About</RouterLink>
                 </div>
@@ -51,11 +51,11 @@
 
                     <div class="lg:pr-14 flex flex-col justify-center ">
 
-                        <h2 class=" pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color">
+                        <h2 class=" pl-5 pr-5 lg:pl-0 text-4xl font-mitr font-bold mb-8 text-vert_clair uppercase random-color">
                             <span class=" bord_transparent font-extrabold">The</span> <br /> <span class="font-bold">
                                 Project </span>
                         </h2>
-                        <p class="pl-5 pr-5 lg:pl-0 text-base 2xl:text-xl text-blanc_impur leading-7 mb-8">Askme is a
+                        <p class="pl-5 pr-5 lg:pl-0 text-base 2xl:text-xl text-blanc_impur leading-7 mb-8 font-poppins">Askme is a
                             school
                             project that was done by a group of three students. The goal was to create a website to help
                             students in their studies.<br /><br />
@@ -75,11 +75,11 @@
                     <div class=" lg:grid lg:gap-x-0 lg:grid-cols-2 ">
                         <div class="lg:pr-14 flex flex-col  justify-center  ">
 
-                            <h2 class=" pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color">
+                            <h2 class="font-mitr pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color">
                                 <span class=" bord_transparent font-extrabold">Design &amp; </span> <br /> <span
                                     class="font-bold"> logo </span>
                             </h2>
-                            <p class="pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">For the logo, we chose to
+                            <p class="pl-5 pr-5 lg:pl-0 font-poppins text-base text-blanc_impur leading-7 mb-8">For the logo, we chose to
                                 use the first letter of the project name to make a typographic logo.
                                 The first logo was a B because the project was originally called Blumee, but after further
                                 reflection we decided to change the name and thus the logo.</p>
@@ -108,11 +108,11 @@
                 <div class="max-w-xl mx-auto items-center lg:max-w-7xl  lg:px-28">
                     <div class=" lg:grid lg:gap-x-0 lg:grid-cols-2 ">
                         <div class="lg:pr-14 flex flex-col justify-center">
-                            <h2 class=" pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color ">
+                            <h2 class=" font-mitr pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color ">
                                 <span class=" bord_transparent font-extrabold">Font &amp; </span> <br /> <span
                                     class="font-bold"> Typography </span>
                             </h2>
-                            <p class="pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">First of all, Quicksand
+                            <p class="font-poppins pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">First of all, Quicksand
                                 is a modern, readable and user-friendly font. It is often used for headlines and titles
                                 because of its large size and eye-catching appearance.<br /><br />
 
@@ -175,11 +175,11 @@
                 <div class="max-w-xl mx-auto items-center lg:max-w-7xl  lg:px-28">
                     <div class=" lg:grid lg:gap-x-0 lg:grid-cols-2 ">
                         <div class="lg:pr-14 flex flex-col justify-center">
-                            <h2 class=" pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color ">
+                            <h2 class="font-mitr pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color ">
                                 <span class=" bord_transparent font-extrabold">Color </span> <br /> <span class="font-bold">
                                     palette </span>
                             </h2>
-                            <p class="pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">
+                            <p class="font-poppins pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">
                                 First, bright blue is a vibrant, eye-catching color that can convey a sense of
                                 confidence and professionalism. It is often used to draw attention to important elements and
                                 create a dynamic atmosphere.
@@ -294,11 +294,11 @@
                 <div class="max-w-xl mx-auto items-center lg:max-w-7xl  lg:px-28">
                     <div class=" lg:grid lg:gap-x-0 lg:grid-cols-2 ">
                         <div class="lg:pr-14 flex flex-col justify-center">
-                            <h2 class=" pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color ">
+                            <h2 class="font-mitr pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color ">
                                 <span class=" bord_transparent font-extrabold">tools </span> <br /> <span class="font-bold">
                                     used </span>
                             </h2>
-                            <p class="pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">To create the landing
+                            <p class="font-poppins pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">To create the landing
                                 page, some technical constraints were imposed. It was imperative to use Figma software to
                                 model and set up a model of the site but it was also necessary to use the HTML markup
                                 language for the hierarchization of elements but also CSS language to style the page in
