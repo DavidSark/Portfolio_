@@ -109,7 +109,7 @@
                 </div>
 
                 <div class="flex justify-center items-center mt-16">
-                    <a href="src/assets/charte.pdf " download
+                    <a href="@/assets/img/mmi/slide3.jpg" download
                         class="font-poppins text-base md:text-26 uppercase text-blanc_impur light_anim3 letter_spacing">Download</a>
                 </div>
 
