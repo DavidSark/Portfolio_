@@ -92,7 +92,7 @@
                                     <input type="submit" value="SEND">
                                 </div>
 
-                                <input type="hidden" name="_next" value="http://localhost:3000/works">
+                                <input type="hidden" name="_next" value="https://portfolio.davidsarkissian.fr/about">
                                 <input type="hidden" name="_captcha" value="false">
                                 
                             </form>
