@@ -365,3 +365,12 @@ hr{
 
 
 
+  .surligne {
+    box-sizing: border-box;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 0.2s ease-in-out;
+  }
+
+  .surligne:hover {
+    border-bottom-color: #A3A3A3;
+  }

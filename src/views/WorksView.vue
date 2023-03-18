@@ -23,8 +23,8 @@
 
     <section class=" sticky top-0 bg-[#090909] p-14 z-20 mb-20 ">
       <div class="flex justify-center items-center space-x-20 lg:space-x-44 uppercase font-poppins">
-        <RouterLink to="/works" class="lg:text-xl 2xl:text-2xl">Works</RouterLink>
-        <RouterLink to="/about" class="lg:text-xl 2xl:text-2xl">About</RouterLink>
+        <RouterLink to="/works" class="lg:text-xl 2xl:text-2xl surligne">Works</RouterLink>
+        <RouterLink to="/about" class="lg:text-xl 2xl:text-2xl surligne">About</RouterLink>
       </div>
     </section>
 
