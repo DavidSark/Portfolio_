@@ -51,7 +51,7 @@
 
                     <div class="lg:pr-14 flex flex-col justify-center ">
 
-                        <h2 class=" pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color">
+                        <h2 class="font-mitr  pl-5 pr-5 lg:pl-0 text-4xl font-bold mb-8 text-vert_clair uppercase random-color">
                             <span class=" bord_transparent font-extrabold">The</span> <br /> <span class="font-bold">
                                 Project </span>
                         </h2>

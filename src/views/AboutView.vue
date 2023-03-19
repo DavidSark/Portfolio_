@@ -49,7 +49,7 @@
                                     class="font-bold random-color">
                                     am i </span>
                             </h2>
-                            <p class="font-poppins pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">
+                            <p class="font-poppins pl-5 pr-5 lg:pl-0 text-base 2xl:text-xl text-blanc_impur leading-7 mb-8">
                                 My name is David and I love the web! <br/> 
                                 I've always scanned the technologies and technical
                                 possibilities related to the digital world in order to capture people's attention.<br/>
