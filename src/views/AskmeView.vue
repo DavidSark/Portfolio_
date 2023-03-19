@@ -22,7 +22,7 @@
                         class="font-poppins text-base md:text-26 uppercase text-blanc_impur light_anim2 ">School project
                     </a>
                 </div>
-                
+
                 <div class="scroll-down-container">
           <div  class="scroll-down-link">
             <span class="arrow-down"></span>
@@ -84,7 +84,7 @@
                                 <span class=" bord_transparent font-extrabold">Design &amp; </span> <br /> <span
                                     class="font-bold"> logo </span>
                             </h2>
-                            <p class="pl-5 pr-5 lg:pl-0 font-poppins text-base text-blanc_impur leading-7 mb-8">For the logo, we chose to
+                            <p class="pl-5 pr-5 lg:pl-0 font-poppins text-base 2xl:text-xl text-blanc_impur leading-7 mb-8">For the logo, we chose to
                                 use the first letter of the project name to make a typographic logo.
                                 The first logo was a B because the project was originally called Blumee, but after further
                                 reflection we decided to change the name and thus the logo.</p>
@@ -117,7 +117,7 @@
                                 <span class=" bord_transparent font-extrabold">Font &amp; </span> <br /> <span
                                     class="font-bold"> Typography </span>
                             </h2>
-                            <p class="font-poppins pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">First of all, Quicksand
+                            <p class="font-poppins pl-5 pr-5 lg:pl-0 text-base 2xl:text-xl text-blanc_impur leading-7 mb-8">First of all, Quicksand
                                 is a modern, readable and user-friendly font. It is often used for headlines and titles
                                 because of its large size and eye-catching appearance.<br /><br />
 
@@ -184,7 +184,7 @@
                                 <span class=" bord_transparent font-extrabold">Color </span> <br /> <span class="font-bold">
                                     palette </span>
                             </h2>
-                            <p class="font-poppins pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">
+                            <p class="font-poppins pl-5 pr-5 lg:pl-0 text-base 2xl:text-xl text-blanc_impur leading-7 mb-8">
                                 First, bright blue is a vibrant, eye-catching color that can convey a sense of
                                 confidence and professionalism. It is often used to draw attention to important elements and
                                 create a dynamic atmosphere.
@@ -303,7 +303,7 @@
                                 <span class=" bord_transparent font-extrabold">tools </span> <br /> <span class="font-bold">
                                     used </span>
                             </h2>
-                            <p class="font-poppins pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">To create the landing
+                            <p class="font-poppins pl-5 pr-5 lg:pl-0 text-base 2xl:text-xl text-blanc_impur leading-7 mb-8">To create the landing
                                 page, some technical constraints were imposed. It was imperative to use Figma software to
                                 model and set up a model of the site but it was also necessary to use the HTML markup
                                 language for the hierarchization of elements but also CSS language to style the page in

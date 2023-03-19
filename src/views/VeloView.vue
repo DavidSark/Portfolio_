@@ -21,7 +21,7 @@
                     <p class="font-poppins text-base md:text-26 uppercase text-blanc_impur light_anim2 ">school project
                     </p>
                 </div>
-                
+
                 <div class="scroll-down-container">
           <div  class="scroll-down-link">
             <span class="arrow-down"></span>
@@ -77,7 +77,7 @@
                                 <span class=" bord_transparent font-extrabold">Design &amp; </span> <br /> <span
                                     class="font-bold"> logo </span>
                             </h2>
-                            <p class="font-poppins pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">The design of the logo is
+                            <p class="font-poppins pl-5 pr-5 lg:pl-0 text-base 2xl:text-xl text-blanc_impur leading-7 mb-8">The design of the logo is
                                 quite simple, there is a road that represents the paths used when you are cycling and at the
                                 end, the horizon.</p>
 
@@ -108,7 +108,7 @@
                                 <span class=" bord_transparent font-extrabold">Font &amp; </span> <br /> <span
                                     class="font-bold"> Typography </span>
                             </h2>
-                            <p class="font-poppins pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">First of all, Quicksand
+                            <p class="font-poppins pl-5 pr-5 lg:pl-0 text-base 2xl:text-xl text-blanc_impur leading-7 mb-8">First of all, Quicksand
                                 is a modern, readable and user-friendly font. It is often used for headlines and titles
                                 because of its large size and eye-catching appearance.<br /><br />
 
@@ -174,7 +174,7 @@
                                 <span class=" bord_transparent font-extrabold">Color </span> <br /> <span class="font-bold">
                                     palette </span>
                             </h2>
-                            <p class="font-poppins pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">First of all,dark green is a bright and energetic blue-green that draws attention.
+                            <p class="font-poppins pl-5 pr-5 lg:pl-0 text-base 2xl:text-xl text-blanc_impur leading-7 mb-8">First of all,dark green is a bright and energetic blue-green that draws attention.
                                 The neutral gray is used to add depth and texture to the
                                 website. This color is often used for body text because it is easy to read on a white
                                 background.  <br/>
@@ -299,7 +299,7 @@
                                 <span class=" bord_transparent font-extrabold">tools </span> <br /> <span class="font-bold">
                                     used </span>
                             </h2>
-                            <p class="font-poppins pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">To create website,
+                            <p class="font-poppins pl-5 pr-5 lg:pl-0 text-base 2xl:text-xl text-blanc_impur leading-7 mb-8">To create website,
                                 some technical constraints were imposed. It was imperative to use Figma software to model
                                 and
                                 set up a model of the website but it was also necessary to use Wordpress to create the

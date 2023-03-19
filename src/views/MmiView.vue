@@ -81,7 +81,7 @@
                                 <span class=" bord_transparent font-extrabold">Design &amp; </span> <br /> <span
                                     class="font-bold"> logo </span>
                             </h2>
-                            <p class="font-poppins pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8">The redesign of the logo
+                            <p class="font-poppins pl-5 pr-5 lg:pl-0 text-base 2xl:text-xl text-blanc_impur leading-7 mb-8">The redesign of the logo
                                 was done by highlighting the international.<br/>
                                 Indeed on the logo we find the initial of MMI but the first M is cut by the trail of an
                                 airplane which shows the travel side.

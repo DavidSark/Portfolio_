@@ -120,7 +120,7 @@
                                 <span class=" bord_transparent font-extrabold">Font &amp; </span> <br /> <span
                                     class="font-bold"> Typography </span>
                             </h2>
-                            <p class="pl-5 pr-5 lg:pl-0 text-base font-poppins text-blanc_impur leading-7 mb-8">Reem Kufi is a modern,
+                            <p class="pl-5 pr-5 lg:pl-0 text-base 2xl:text-xl font-poppins text-blanc_impur leading-7 mb-8">Reem Kufi is a modern,
                                 elegant and easy to read font. It is often used for headlines and titles because of its
                                 large size and eye-catching look.<br /><br />
 
@@ -183,7 +183,7 @@
                                 <span class=" bord_transparent font-extrabold">Color </span> <br /> <span class="font-bold">
                                     palette </span>
                             </h2>
-                            <p class="pl-5 pr-5 lg:pl-0 text-base font-poppins text-blanc_impur leading-7 mb-8"> The combination of
+                            <p class="pl-5 pr-5 lg:pl-0 text-base 2xl:text-xl font-poppins text-blanc_impur leading-7 mb-8"> The combination of
                                 colors chosen creates a harmonious and effective visual balance for the website. Bright
                                 colors draw attention to important elements, while darker, subtle colors help create strong
                                 visual contrast and maintain high readability for text.<br /><br />
@@ -302,7 +302,7 @@
                                 <span class=" bord_transparent font-extrabold">tools </span> <br /> <span class="font-bold">
                                     used </span>
                             </h2>
-                            <p class="pl-5 pr-5 lg:pl-0 text-base text-blanc_impur leading-7 mb-8 font-poppins">For this project,
+                            <p class="pl-5 pr-5 lg:pl-0 text-base 2xl:text-xl text-blanc_impur leading-7 mb-8 font-poppins">For this project,
                                 different tools were used.
                                 These tools were not imposed but were chosen judiciously to answer a precise task all along
                                 the conception of the project.
